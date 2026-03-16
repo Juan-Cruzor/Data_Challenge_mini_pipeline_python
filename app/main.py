@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/daily_stats")
 
-def get_daily_stats(date:str):
+def get_daily_stats(date):
     """Function that gets the table for a date in the endpoint"""
 
     conn = get_conn()
@@ -20,15 +20,17 @@ def get_daily_stats(date:str):
 
     rows = cursor.fetchall()
 
-    return [
-        {
-            "user_id":r[0],
-            "searches":r[1],
-            "purchases":r[2],
-            "total_purchased_amount": float(r[3])
-        }
-        for r in rows
-    ]
+    result = []
+
+    for user_id, searches, purchases, amount in rows:
+        result.append({
+            "user_id": user_id,
+            "searches": searches,
+            "purchases": purchases,
+            "total_purchased_amount": float(amount)
+        })
+    
+    return result
 
 if __name__ == "__main__":
     process_events("data/events.json")

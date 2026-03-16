@@ -1,6 +1,7 @@
 import json
 import hashlib
 from collections import defaultdict
+from psycopg2.extras import execute_values
 
 from app.validation import validate_event, normalize_event
 from app.db import get_conn
@@ -67,19 +68,32 @@ def process_events(path):
             metrics[key]["purchases"] += 1
             metrics[key]["amount"] += e["properties"].get("amount",0)
 
-    for (date, user), m in metrics.items():
+    rows = []
 
-        cursor.execute("""
+    for (date, user), m in metrics.items():
+        rows.append(
+        (
+            date,
+            user,
+            m["searches"],
+            m["purchases"],
+            m["amount"]
+        )
+    )
+    # Making sure that it has the actual computed metrics.
+    execute_values(
+        cursor,
+        """
         INSERT INTO daily_user_stats
-        VALUES (%s,%s,%s,%s,%s)
+        (date,user_id,searches,purchases,total_purchased_amount)
+        VALUES %s
         ON CONFLICT (date,user_id)
         DO UPDATE SET
-        searches = daily_user_stats.searches + EXCLUDED.searches,
-        purchases = daily_user_stats.purchases + EXCLUDED.purchases,
-        total_purchased_amount =
-        daily_user_stats.total_purchased_amount +
-        EXCLUDED.total_purchased_amount
-        """, (date,user, m["searches"], m["purchases"], m["amount"]))
+            searches = EXCLUDED.searches,
+            purchases = EXCLUDED.purchases,
+            total_purchased_amount = EXCLUDED.total_purchased_amount
+        """,
+    rows)
 
     conn.commit()
 
