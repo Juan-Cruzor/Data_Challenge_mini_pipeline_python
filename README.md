@@ -18,7 +18,7 @@ docker-compose up --build
 
 ## Process events
 
-python -m app.pipeline data/events.json
+docker exec python api -m app.pipeline data/events.json
 
 ## Endpoint
 

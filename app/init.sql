@@ -8,5 +8,6 @@ CREATE TABLE daily_user_stats (
 );
 
 CREATE TABLE processed_events (
-    event_hash TEXT PRIMARY KEY
+    event_hash TEXT PRIMARY KEY,
+    processed_at TIMESTAMP DEFAULT NOW()
 );

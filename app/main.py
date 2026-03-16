@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.db import get_conn
+from app.pipeline import process_events
 
 app = FastAPI()
 
@@ -28,3 +29,6 @@ def get_daily_stats(date:str):
         }
         for r in rows
     ]
+
+if __name__ == "__main__":
+    process_events("data/events.json")

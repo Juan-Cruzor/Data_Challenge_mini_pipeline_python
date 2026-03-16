@@ -30,12 +30,13 @@ def process_events(path):
 
         h = event_hash(event)
 
-        cursor.execute(
-            "SELECT 1 FROM processed_events WHERE event_hash=%s",
-            (h,)
-        )
+        cursor.execute("""
+        INSERT INTO processed_events(event_hash)
+        VALUES (%s)ON CONFLICT DO NOTHING
+        RETURNING event_hash
+        """,(h,))
 
-        if cursor.fetchone():
+        if cursor.fetchone() is None:
             continue
 
         cursor.execute(
