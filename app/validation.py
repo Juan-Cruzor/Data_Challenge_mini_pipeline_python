@@ -1,4 +1,5 @@
 from datetime import datetime
+from app.logger import logger
 
 def validate_event(event):
     """The function checks for valid user_id and timestamp in the event
@@ -18,11 +19,13 @@ def validate_event(event):
     timestamp = event.get("timestamp")
 
     if not user_id:
+        logger.warning(f"Event {event} not valid - user_id is missing")
         return False
 
     try:
         datetime.fromisoformat(timestamp.replace("Z",""))
-    except:
+    except Exception:
+        logger.warning(f"Event {event} not valid - wrong timestampformat")
         return False
 
     return True
