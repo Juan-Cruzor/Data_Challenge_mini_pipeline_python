@@ -25,7 +25,7 @@ def get_daily_stats(date:str):
             "user_id":r[0],
             "searches":r[1],
             "purchases":r[2],
-            "total_purchased_amount":float(r[3])
+            "total_purchased_amount": float(r[3])
         }
         for r in rows
     ]

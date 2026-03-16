@@ -48,7 +48,7 @@ def normalize_event(event):
     properties = event.get("properties",{})
 
     if event["event"] == "purchase_complete":
-        properties.setdefault("amount",0)
+        properties.setdefault("amount", 0)
 
     event["properties"] = properties
 

@@ -4,6 +4,7 @@ from collections import defaultdict
 
 from app.validation import validate_event, normalize_event
 from app.db import get_conn
+from app.logger import logger
 
 
 def event_hash(event):
@@ -78,6 +79,8 @@ def process_events(path):
         total_purchased_amount =
         daily_user_stats.total_purchased_amount +
         EXCLUDED.total_purchased_amount
-        """,(date,user,m["searches"],m["purchases"],m["amount"]))
+        """, (date,user, m["searches"], m["purchases"], m["amount"]))
 
     conn.commit()
+
+    logger.info(f"Processed events file $s)", path)
