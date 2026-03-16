@@ -1,36 +1,17 @@
+from pydantic import TypeAdapter,ValidationError
 from app.models import Event
-from pydantic import ValidationError
 
+# According to the pydantic documentation, creating an adapter is more efficient.
+adapter=TypeAdapter(Event)
 
-def validate_event(raw_event):
-
+def validate_event(raw):
+    """Function that validates the event using the pydantic models.
+        Args:
+            raw[dict]: The raw event data.
+        Returns:
+            model_dump[dict]: The validated and normalized event data, or None if validation fails.
+            """
     try:
-        event = Event(**raw_event)
-        return event.dict()
-
+        return adapter.validate_python(raw).model_dump()
     except ValidationError:
         return None
-
-
-def normalize_event(event):
-    """Function that normalizes events by setting a default amount
-        Args:
-            event[dict]:Dictionary conyaining the following structure
-            {
-                "event": "string",
-                "user_id": "string",
-                "timestamp": "date format",
-                "properties": dictionary {
-                    "amount": 100
-                }
-            }
-    """
-
-    properties = event.get("properties", {})
-
-    if event["event"] == "purchase_complete":
-        properties.setdefault("amount", 0)
-
-    event["properties"] = properties
-
-    return event

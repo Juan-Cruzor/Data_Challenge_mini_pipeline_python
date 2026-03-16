@@ -8,6 +8,11 @@ from app.db import get_conn
 from app.logger import logger
 
 
+# Buffer to avoid bottleneck on inserting events in processed events table
+HASH_BATCH_SIZE = 5000
+event_hash_buffer = []
+
+
 def event_hash(event):
     return hashlib.md5(json.dumps(event, sort_keys=True).encode()).hexdigest()
 
@@ -22,7 +27,6 @@ def process_events(path):
         events = json.load(f)
 
     valid_events = []
-
     for event in events:
 
         if not validate_event(event):
@@ -32,21 +36,37 @@ def process_events(path):
 
         h = event_hash(event)
 
-        cursor.execute("""
-        INSERT INTO processed_events(event_hash)
-        VALUES (%s)ON CONFLICT DO NOTHING
-        RETURNING event_hash
-        """,(h,))
+        event_hash_buffer.append((h,))
 
-        if cursor.fetchone() is None:
-            continue
+        if len(event_hash_buffer) >= HASH_BATCH_SIZE:
 
-        cursor.execute(
-            "INSERT INTO processed_events VALUES (%s)",
-            (h,)
-        )
+            execute_values(
+                cursor,
+                """
+                INSERT INTO processed_events (event_hash)
+                VALUES %s
+                ON CONFLICT DO NOTHING
+                """,
+                event_hash_buffer
+            )
+
+            event_hash_buffer.clear()
 
         valid_events.append(event)
+
+    # Flushing
+    if event_hash_buffer:
+
+        execute_values(
+            cursor,
+            """
+            INSERT INTO processed_events (event_hash)
+            VALUES %s
+            ON CONFLICT DO NOTHING
+            """,
+            event_hash_buffer
+        )
+        event_hash_buffer.clear()
 
     metrics = defaultdict(lambda:{
         "searches":0,
@@ -97,4 +117,55 @@ def process_events(path):
 
     conn.commit()
 
-    logger.info(f"Processed events file $s)", path)
+
+from app.stream import stream_events
+from app.validation import validate_event
+from app.idempotency import is_new_event
+from app.aggregate import init_metrics, update_metrics, flush_metrics
+from app.storage.parquet_writer import write_parquet
+from app.storage.warehouse_writer import insert_metrics
+from app.db import get_conn
+
+
+def run_pipeline(path):
+
+    conn=get_conn()
+    cursor=conn.cursor()
+
+    metrics=init_metrics()
+
+    parquet_buffer=[]
+
+    for raw in stream_events(path):
+
+        event=validate_event(raw)
+
+        if not event:
+            continue
+
+        if not is_new_event(cursor,event):
+            continue
+
+        parquet_buffer.append(event)
+
+        update_metrics(metrics,event)
+
+        if len(parquet_buffer)>=10000:
+
+            write_parquet(parquet_buffer)
+
+            parquet_buffer.clear()
+
+        if len(metrics)>=10000:
+
+            rows=flush_metrics(metrics)
+
+            insert_metrics(cursor,rows)
+
+    write_parquet(parquet_buffer)
+
+    rows=flush_metrics(metrics)
+
+    insert_metrics(cursor,rows)
+
+    conn.commit()
