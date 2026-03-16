@@ -5,3 +5,4 @@ pytest
 pydantic
 orjson
 ijson
+pyarrow
