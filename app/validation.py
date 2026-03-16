@@ -1,34 +1,15 @@
-from datetime import datetime
-from app.logger import logger
+from app.models import Event
+from pydantic import ValidationError
 
-def validate_event(event):
-    """The function checks for valid user_id and timestamp in the event
-            Args:
-                event[dict]:Dictionary conyaining the following structure
-                {
-                    "event": "purchase_complete",
-                    "user_id": "12345",
-                    "timestamp": "2023-01-01T12:00:00Z",
-                    "properties": {
-                        "amount": 100
-                    }
-                }
-    """
 
-    user_id = event.get("user_id")
-    timestamp = event.get("timestamp")
-
-    if not user_id:
-        logger.warning(f"Event {event} not valid - user_id is missing")
-        return False
+def validate_event(raw_event):
 
     try:
-        datetime.fromisoformat(timestamp.replace("Z",""))
-    except Exception:
-        logger.warning(f"Event {event} not valid - wrong timestampformat")
-        return False
+        event = Event(**raw_event)
+        return event.dict()
 
-    return True
+    except ValidationError:
+        return None
 
 
 def normalize_event(event):
@@ -45,7 +26,7 @@ def normalize_event(event):
             }
     """
 
-    properties = event.get("properties",{})
+    properties = event.get("properties", {})
 
     if event["event"] == "purchase_complete":
         properties.setdefault("amount", 0)
