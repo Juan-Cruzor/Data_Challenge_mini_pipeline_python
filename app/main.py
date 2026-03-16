@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.db import get_conn
-from app.pipeline import process_events
+from app.pipeline import run_pipeline
 
 app = FastAPI()
 
@@ -33,4 +33,4 @@ def get_daily_stats(date):
     return result
 
 if __name__ == "__main__":
-    process_events("data/events.json")
+    run_pipeline("data/events.json")
