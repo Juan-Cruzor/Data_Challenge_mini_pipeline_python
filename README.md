@@ -75,6 +75,9 @@ docker compose down -v
 - Docker to have an easier way to reproduce and try the pipeline.
 - Used a generator to yield the json objects in the input file, that way it is more memory efficent and evventually handle larger files.
 
+## AI prompt to generate more entries ##
+Based on this json file and in the following pipeline. Generate similar data but also make them random and inpredictible so it tests how the pipeline manages when unexpected situations arise.
+
 
 ## Things I would have done with more time.
 
