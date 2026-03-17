@@ -9,7 +9,7 @@ import pyarrow.parquet as pq
 BASE_PATH = "./data/events"
 
 
-def write_parquet(events: list[dict]) -> None:
+def write_parquet(events):
     """
     Persist a batch of events to date-partitioned Parquet files.
 

@@ -2,19 +2,19 @@ from fastapi import FastAPI, HTTPException, Query
 from app.db import get_conn
 from app.pipeline import run_pipeline
 from app.logger import logger
-
+ 
 app = FastAPI(
     title="Events Pipeline API",
     description="Query daily aggregated user metrics.",
     version="1.0.0",
 )
-
-
+ 
+ 
 @app.get("/daily_stats")
-def get_daily_stats(date):
+def get_daily_stats(date: str = Query(..., example="2025-01-15")):
     """
     Return aggregated stats across all users for a given date (YYYY-MM-DD).
-
+ 
     Response format:
     {
         "date": "2025-01-15",
@@ -43,16 +43,14 @@ def get_daily_stats(date):
             )
             row = cursor.fetchone()
     except Exception as e:
-
         logger.error(f"DB error on /daily_stats?date={date}: {e}")
         raise HTTPException(status_code=500, detail="Database error.")
-    
     finally:
         conn.close()
-
+ 
     if not row:
         raise HTTPException(status_code=404, detail=f"No data found for date: {date}")
-
+ 
     return {
         "date": row[0],
         "total_users": row[1],
@@ -60,10 +58,10 @@ def get_daily_stats(date):
         "total_purchases": row[3],
         "total_purchased_amount": float(row[4]),
     }
-
-
+ 
+ 
 @app.get("/daily_stats/breakdown")
-def get_daily_stats_breakdown(date):
+def get_daily_stats_breakdown(date: str = Query(..., example="2025-01-15")):
     """
     Return per-user stats for a given date.
     Useful for debugging; not required by the challenge spec.
@@ -86,10 +84,10 @@ def get_daily_stats_breakdown(date):
         raise HTTPException(status_code=500, detail="Database error.")
     finally:
         conn.close()
-
+ 
     if not rows:
         raise HTTPException(status_code=404, detail=f"No data found for date: {date}")
-
+ 
     return {
         "date": date,
         "users": [
@@ -102,10 +100,10 @@ def get_daily_stats_breakdown(date):
             for user_id, searches, purchases, amount in rows
         ],
     }
-
-
+ 
+ 
 @app.post("/pipeline/run")
-def trigger_pipeline(path):
+def trigger_pipeline(path: str = "app/data/events_december_2025.json"):
     """Manually trigger a pipeline run against the given events file."""
     try:
         run_pipeline(path)
@@ -113,8 +111,8 @@ def trigger_pipeline(path):
     except Exception as e:
         logger.error(f"Pipeline failed via API trigger: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-
-
+ 
+ 
 @app.get("/health")
 def health():
     return {"status": "ok"}
