@@ -1,82 +1,110 @@
-import json
-import hashlib
-from collections import defaultdict
-
-from app.validation import validate_event, normalize_event
+from app.stream import stream_events
+from app.validation import validate_event
+from app.idempotency import is_new_event, mark_event_processed
+from app.aggregate import init_metrics, update_metrics, flush_metrics
+from app.write_parquet import write_parquet
+from app.write_csv import write_csv, reset_csv
+from app.data_warehouse import insert_metrics
+from app.watermark import get_watermark, set_watermark
 from app.db import get_conn
-
-
-def event_hash(event):
-    return hashlib.md5(json.dumps(event, sort_keys=True).encode()).hexdigest()
-
-
-def process_events(path):
-    """Function that processes the events by validating them, normalizing them."""
-
+from app.logger import logger
+ 
+BATCH_SIZE = 10_000
+ 
+ 
+def run_pipeline(path):
     conn = get_conn()
     cursor = conn.cursor()
-
-    with open(path) as f:
-        events = json.load(f)
-
-    valid_events = []
-
-    for event in events:
-
-        if not validate_event(event):
-            continue
-
-        event = normalize_event(event)
-
-        h = event_hash(event)
-
-        cursor.execute(
-            "SELECT 1 FROM processed_events WHERE event_hash=%s",
-            (h,)
+ 
+    # Start the CSV fresh so re-running the pipeline doesn't duplicate rows.
+    reset_csv()
+ 
+    try:
+        # Incremental processing
+        
+        watermark = get_watermark(cursor)
+ 
+        if watermark:
+            logger.info(f"Resuming from watermark: {watermark.isoformat()}")
+        else:
+            logger.info("No watermark found — processing all events.")
+ 
+        metrics = init_metrics()
+        parquet_buffer = []
+        processed = 0
+        skipped = 0
+        latest_ts = watermark  # will be advanced as we see newer events
+ 
+        for raw in stream_events(path, after_ts=watermark):
+ 
+            # Validate and normalize via Pydantic — returns None if invalid.
+            event = validate_event(raw)
+            if not event:
+                skipped += 1
+                continue
+ 
+            # Secondary idempotency guard: catches out-of-order events that
+            # share a timestamp right at the watermark boundary.
+            if not is_new_event(cursor, event):
+                skipped += 1
+                continue
+ 
+            # Mark as processed inside the same transaction so it rolls back
+            # together with the metrics insert on failure.
+            mark_event_processed(cursor, event)
+ 
+            parquet_buffer.append(event)
+            update_metrics(metrics, event)
+            processed += 1
+ 
+            # Advance the high-water mark.
+            event_ts = event["timestamp"]
+            if latest_ts is None or event_ts > latest_ts:
+                latest_ts = event_ts
+ 
+            # Flush parquet in batches to keep memory usage bounded.
+            if len(parquet_buffer) >= BATCH_SIZE:
+                write_parquet(parquet_buffer)
+                parquet_buffer.clear()
+ 
+            # Flush metrics to DB + CSV and commit in batches so that a
+            # mid-run crash doesn't lose all progress.
+            if len(metrics) >= BATCH_SIZE:
+                rows = flush_metrics(metrics)
+                insert_metrics(cursor, rows)
+                write_csv(rows)
+                conn.commit()
+                logger.info(f"Committed batch of {len(rows)} metric rows.")
+ 
+        # ----------------------------------------------------------------
+        # Final flush
+        # ----------------------------------------------------------------
+        if parquet_buffer:
+            write_parquet(parquet_buffer)
+ 
+        rows = flush_metrics(metrics)
+        insert_metrics(cursor, rows)
+        write_csv(rows)
+ 
+        # Advance the watermark only after all data is safely written.
+        # If we crash before this point the next run re-processes this batch;
+        # the idempotency check prevents any duplicates from being written.
+        if latest_ts is not None and latest_ts != watermark:
+            set_watermark(cursor, latest_ts)
+            logger.info(f"Watermark advanced to: {latest_ts.isoformat()}")
+ 
+        conn.commit()
+ 
+        logger.info(
+            f"Pipeline complete — processed: {processed}, "
+            f"skipped/invalid: {skipped}, metric rows: {len(rows)}."
         )
-
-        if cursor.fetchone():
-            continue
-
-        cursor.execute(
-            "INSERT INTO processed_events VALUES (%s)",
-            (h,)
-        )
-
-        valid_events.append(event)
-
-    metrics = defaultdict(lambda:{
-        "searches":0,
-        "purchases":0,
-        "amount":0
-    })
-
-    for e in valid_events:
-
-        date = e["timestamp"][:10]
-        user = e["user_id"]
-
-        key = (date,user)
-
-        if e["event"] == "search":
-            metrics[key]["searches"] += 1
-
-        if e["event"] == "purchase_complete":
-            metrics[key]["purchases"] += 1
-            metrics[key]["amount"] += e["properties"].get("amount",0)
-
-    for (date, user), m in metrics.items():
-
-        cursor.execute("""
-        INSERT INTO daily_user_stats
-        VALUES (%s,%s,%s,%s,%s)
-        ON CONFLICT (date,user_id)
-        DO UPDATE SET
-        searches = daily_user_stats.searches + EXCLUDED.searches,
-        purchases = daily_user_stats.purchases + EXCLUDED.purchases,
-        total_purchased_amount =
-        daily_user_stats.total_purchased_amount +
-        EXCLUDED.total_purchased_amount
-        """,(date,user,m["searches"],m["purchases"],m["amount"]))
-
-    conn.commit()
+ 
+    except Exception as e:
+        conn.rollback()
+        logger.error(f"Pipeline failed, transaction rolled back: {e}")
+        raise
+ 
+    finally:
+        cursor.close()
+        conn.close()

@@ -1,0 +1,5954 @@
+[
+  {
+    "event": "purchase_failed",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-05T09:44:50Z",
+    "properties": {
+      "amount": 908,
+      "payment_method": "mercado_pago",
+      "phone": "+521554339864"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "DBMEneE6",
+    "timestamp": "2025-12-03T22:58:12Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "GDL",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-01T21:00:30Z",
+    "properties": {
+      "amount": 360,
+      "payment_method": "mercado_pago",
+      "phone": "+521334967857"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-01T12:56:13Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "MTY",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-01T17:33:31Z",
+    "properties": {
+      "amount": 118,
+      "payment_method": "credit_card",
+      "phone": "+521550126286"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-01T13:21:12Z",
+    "properties": {
+      "amount": 714,
+      "payment_method": "paypal",
+      "phone": "+521228981632"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-05T04:41:16Z",
+    "properties": {
+      "amount": 135,
+      "payment_method": "paypal",
+      "phone": "+521995469428"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "j5KzuBWH",
+    "timestamp": "2025-12-05T11:14:40Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/03"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2yWryL0B",
+    "timestamp": "2025-12-02T08:28:16Z",
+    "properties": {
+      "amount": 293,
+      "payment_method": "credit_card",
+      "phone": "+521224363147"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-01T10:53:50Z",
+    "properties": {
+      "amount": 607,
+      "payment_method": "credit_card",
+      "phone": "+521221552579"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-01T15:50:11Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-05T15:06:47Z",
+    "properties": {
+      "amount": 792,
+      "payment_method": "paypal",
+      "phone": "+521813483204"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-02T23:24:22Z",
+    "properties": {
+      "amount": 739,
+      "payment_method": "mercado_pago",
+      "phone": "+521819553280"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-02T16:45:01Z",
+    "properties": {
+      "amount": 112,
+      "payment_method": "oxxo",
+      "phone": "+521814080942"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oUwRiilM",
+    "timestamp": "2025-12-06T11:43:30Z",
+    "properties": {
+      "amount": 215,
+      "payment_method": "paypal",
+      "phone": "+521813374189"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-03T04:18:35Z",
+    "properties": {
+      "amount": 628,
+      "payment_method": "oxxo",
+      "phone": "+521477825660"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-02T00:38:48Z",
+    "properties": {
+      "amount": 228,
+      "payment_method": "oxxo",
+      "phone": "+521445134814"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kkrx4ZRk",
+    "timestamp": "2025-12-01T22:22:06Z",
+    "properties": {
+      "amount": 820,
+      "payment_method": "credit_card",
+      "phone": "+521474545201"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-02T03:13:04Z",
+    "properties": {
+      "amount": 518,
+      "payment_method": "mercado_pago",
+      "phone": "+521997047762"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": null,
+    "timestamp": "2025-12-05T17:42:05Z",
+    "properties": {
+      "amount": 720,
+      "payment_method": "oxxo",
+      "phone": "+521991389715"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-02T16:30:49Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "PUE",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-01T19:51:24Z",
+    "properties": {
+      "amount": 769,
+      "payment_method": "oxxo",
+      "phone": "+521441173479"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "5zMYRrTw",
+    "timestamp": "2025-12-04T12:03:49Z",
+    "properties": {
+      "amount": 639,
+      "payment_method": "oxxo",
+      "phone": "+521993958116"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-06T07:23:43Z",
+    "properties": {
+      "amount": 423,
+      "payment_method": "credit_card",
+      "phone": "+521814348173"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-01T09:20:07Z",
+    "properties": {
+      "amount": 621,
+      "payment_method": "credit_card",
+      "phone": "+521334770847"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-03T05:55:43Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-04T04:52:30Z",
+    "properties": {
+      "amount": 479,
+      "payment_method": "credit_card",
+      "phone": "+521558132019"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-01T16:18:07Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "MTY",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-05T12:47:23Z",
+    "properties": {
+      "amount": 798,
+      "payment_method": "mercado_pago",
+      "phone": "+521990133394"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-04T14:09:39Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "CDMX",
+      "date": "2025/12/19"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-04T18:42:19Z",
+    "properties": {
+      "amount": 418,
+      "payment_method": "paypal",
+      "phone": "+521819132724"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-02T15:20:53Z",
+    "properties": {
+      "amount": 771,
+      "payment_method": "credit_card",
+      "phone": "+521446518937"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-01T05:17:44Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "PUE",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "kbsBk0oD",
+    "timestamp": "2025-12-02T19:02:01Z",
+    "properties": {
+      "amount": 520,
+      "payment_method": "oxxo",
+      "phone": "+521559568348"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-05T16:26:16Z",
+    "properties": {
+      "amount": 136,
+      "payment_method": "paypal",
+      "phone": "+521446708123"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-04T17:03:21Z",
+    "properties": {
+      "amount": 178,
+      "payment_method": "mercado_pago",
+      "phone": "+521449762190"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-02T04:28:17Z",
+    "properties": {
+      "amount": 760,
+      "payment_method": "oxxo",
+      "phone": "+521337688318"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-03T18:33:52Z",
+    "properties": {
+      "amount": 954,
+      "payment_method": "paypal",
+      "phone": "+521479650184"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-04T07:01:42Z",
+    "properties": {
+      "amount": 990,
+      "payment_method": "paypal",
+      "phone": "+521479178717"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-03T11:34:36Z",
+    "properties": {
+      "amount": 464,
+      "payment_method": "mercado_pago",
+      "phone": "+521552186408"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-03T08:13:15Z",
+    "properties": {
+      "amount": 480,
+      "payment_method": "paypal",
+      "phone": "+521812336465"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-06T21:35:30Z",
+    "properties": {
+      "amount": 715,
+      "payment_method": "oxxo",
+      "phone": "+521557357666"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "A1yKurJj",
+    "timestamp": "2025-12-03T19:19:26Z",
+    "properties": {
+      "amount": 860,
+      "payment_method": "paypal",
+      "phone": "+521221532863"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-02T08:25:19Z",
+    "properties": {
+      "amount": 708,
+      "payment_method": "mercado_pago",
+      "phone": "+521337267800"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-04T17:20:41Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "GDL",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-06T14:19:20Z",
+    "properties": {
+      "amount": 156,
+      "payment_method": "oxxo",
+      "phone": "+521222705553"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-01T17:12:31Z",
+    "properties": {
+      "amount": 850,
+      "payment_method": "mercado_pago",
+      "phone": "+521990416011"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-04T09:49:40Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "PUE",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-05T05:24:38Z",
+    "properties": {
+      "amount": 166,
+      "payment_method": "oxxo",
+      "phone": "+521995232930"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-05T13:55:19Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "ON",
+      "date": "2025/12/13"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-01T13:07:15Z",
+    "properties": {
+      "amount": 951,
+      "payment_method": "oxxo",
+      "phone": "+521990569933"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-02T18:03:43Z",
+    "properties": {
+      "amount": 134,
+      "payment_method": "credit_card",
+      "phone": "+521446055574"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-01T04:48:03Z",
+    "properties": {
+      "amount": 708,
+      "payment_method": "paypal",
+      "phone": "+521335217621"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gpZdBcM3",
+    "timestamp": "2025-12-05T21:53:24Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "GDL",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": null,
+    "timestamp": "2025-12-01T11:39:21Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "CDMX",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-06T03:41:09Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "VER",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-06T05:25:42Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "GDL",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-05T16:42:47Z",
+    "properties": {
+      "amount": 930,
+      "payment_method": "credit_card",
+      "phone": "+521473744739"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-03T22:31:19Z",
+    "properties": {
+      "amount": 770,
+      "payment_method": "oxxo",
+      "phone": "+521475898044"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-06T06:29:35Z",
+    "properties": {
+      "amount": 301,
+      "payment_method": "oxxo",
+      "phone": "+521810423496"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-03T03:21:57Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "GDL",
+      "date": "2025/12/22"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-02T21:46:46Z",
+    "properties": {
+      "amount": 729,
+      "payment_method": "oxxo",
+      "phone": "+521554650154"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-01T09:39:53Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "PUE",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-04T06:49:04Z",
+    "properties": {
+      "amount": 434,
+      "payment_method": "paypal",
+      "phone": "+521449354725"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-02T19:09:33Z",
+    "properties": {
+      "amount": 243,
+      "payment_method": "credit_card",
+      "phone": "+521815549885"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-01T15:33:33Z",
+    "properties": {
+      "amount": 352,
+      "payment_method": "mercado_pago",
+      "phone": "+521551281600"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-04T08:22:26Z",
+    "properties": {
+      "amount": 666,
+      "payment_method": "mercado_pago",
+      "phone": "+521224120729"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-04T06:38:31Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/25"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-04T08:54:56Z",
+    "properties": {
+      "amount": 399,
+      "payment_method": "credit_card",
+      "phone": "+521474768516"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "j5KzuBWH",
+    "timestamp": "2025-12-02T07:25:31Z",
+    "properties": {
+      "amount": 133,
+      "payment_method": "oxxo",
+      "phone": "+521331073351"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-01T01:39:33Z",
+    "properties": {
+      "amount": 984,
+      "payment_method": "credit_card",
+      "phone": "+521559694467"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-01T01:35:30Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "MTY",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-05T15:22:11Z",
+    "properties": {
+      "amount": 161,
+      "payment_method": "oxxo",
+      "phone": "+521554403602"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-04T11:09:35Z",
+    "properties": {
+      "amount": 513,
+      "payment_method": "mercado_pago",
+      "phone": "+521446467329"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-04T09:46:06Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/30"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Bv5epZXb",
+    "timestamp": "2025-12-04T16:15:43Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-02T20:23:40Z",
+    "properties": {
+      "amount": 176,
+      "payment_method": "mercado_pago",
+      "phone": "+521339994361"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-04T13:17:18Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "CDMX",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-03T14:52:20Z",
+    "properties": {
+      "amount": 364,
+      "payment_method": "paypal",
+      "phone": "+521441600947"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-03T02:56:38Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "GDL",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-03T02:42:43Z",
+    "properties": {
+      "amount": 448,
+      "payment_method": "credit_card",
+      "phone": "+521991167964"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-03T18:15:37Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "MTY",
+      "date": "2025/12/10"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T19:36:33Z",
+    "properties": {
+      "amount": 803,
+      "payment_method": "oxxo",
+      "phone": "+521339438297"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Bv5epZXb",
+    "timestamp": "2025-12-05T06:10:19Z",
+    "properties": {
+      "amount": 191,
+      "payment_method": "paypal",
+      "phone": "+521550940349"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-02T15:56:24Z",
+    "properties": {
+      "amount": 311,
+      "payment_method": "paypal",
+      "phone": "+521222776280"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-02T04:58:32Z",
+    "properties": {
+      "amount": 874,
+      "payment_method": "mercado_pago",
+      "phone": "+521551900245"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Uxwf8OVP",
+    "timestamp": "2025-12-04T02:45:22Z",
+    "properties": {
+      "amount": 205,
+      "payment_method": "credit_card",
+      "phone": "+521554439991"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-01T10:33:09Z",
+    "properties": {
+      "amount": 445,
+      "payment_method": "credit_card",
+      "phone": "+521999358079"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-02T02:42:54Z",
+    "properties": {
+      "amount": 539,
+      "payment_method": "paypal",
+      "phone": "+521478072977"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-04T02:26:42Z",
+    "properties": {
+      "amount": 494,
+      "payment_method": "oxxo",
+      "phone": "+521226025854"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "j5KzuBWH",
+    "timestamp": "2025-12-04T10:52:56Z",
+    "properties": {
+      "amount": 579,
+      "payment_method": "credit_card",
+      "phone": "+521470074489"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-02T07:08:08Z",
+    "properties": {
+      "amount": 402,
+      "payment_method": "paypal",
+      "phone": "+521471048193"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "LOQrZCBL",
+    "timestamp": "2025-12-05T11:04:15Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "CDMX",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-03T07:51:14Z",
+    "properties": {
+      "amount": 321,
+      "payment_method": "mercado_pago",
+      "phone": "+521475435058"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-05T08:52:19Z",
+    "properties": {
+      "amount": 674,
+      "payment_method": "credit_card",
+      "phone": "+521553660259"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-01T01:03:07Z",
+    "properties": {
+      "amount": 231,
+      "payment_method": "mercado_pago",
+      "phone": "+521479575864"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-02T21:19:45Z",
+    "properties": {
+      "amount": 485,
+      "payment_method": "credit_card",
+      "phone": "+521996349040"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "S9Zt9xJk",
+    "timestamp": "2025-12-01T12:36:13Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "PUE",
+      "date": "2025/12/10"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-01T04:08:49Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/08"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kkrx4ZRk",
+    "timestamp": "2025-12-05T02:22:58Z",
+    "properties": {
+      "amount": 882,
+      "payment_method": "mercado_pago",
+      "phone": "+521995049119"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-01T00:15:59Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "QUER",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-05T09:44:20Z",
+    "properties": {
+      "amount": 192,
+      "payment_method": "oxxo",
+      "phone": "+521445025772"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-01T12:39:08Z",
+    "properties": {
+      "amount": 885,
+      "payment_method": "mercado_pago",
+      "phone": "+521447994193"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-04T21:55:39Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "QUER",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbsBk0oD",
+    "timestamp": "2025-12-06T18:24:35Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "VER",
+      "date": "2025/12/08"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-06T09:58:11Z",
+    "properties": {
+      "amount": 634,
+      "payment_method": "oxxo",
+      "phone": "+521474002904"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "kbsBk0oD",
+    "timestamp": "2025-12-02T12:41:15Z",
+    "properties": {
+      "amount": 546,
+      "payment_method": "oxxo",
+      "phone": "+521446677409"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-06T04:35:22Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/17"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-06T15:27:57Z",
+    "properties": {
+      "amount": 580,
+      "payment_method": "mercado_pago",
+      "phone": "+521333686635"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-05T18:58:16Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "VER",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "fl2k5v02",
+    "timestamp": "2025-12-04T17:04:20Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "VER",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-03T04:20:24Z",
+    "properties": {
+      "amount": 278,
+      "payment_method": "paypal",
+      "phone": "+521997217579"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-03T06:52:49Z",
+    "properties": {
+      "amount": 677,
+      "payment_method": "mercado_pago",
+      "phone": "+521337339190"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-02T03:59:00Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "CDMX",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-05T06:06:30Z",
+    "properties": {
+      "amount": 751,
+      "payment_method": "oxxo",
+      "phone": "+521556373311"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-01T13:16:39Z",
+    "properties": {
+      "amount": 537,
+      "payment_method": "oxxo",
+      "phone": "+521475681979"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-06T20:21:24Z",
+    "properties": {
+      "amount": 291,
+      "payment_method": "mercado_pago",
+      "phone": "+521814129752"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-05T07:24:13Z",
+    "properties": {
+      "amount": 528,
+      "payment_method": "mercado_pago",
+      "phone": "+521225156788"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-01T21:13:05Z",
+    "properties": {
+      "amount": 616,
+      "payment_method": "oxxo",
+      "phone": "+521993750050"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-06T04:19:20Z",
+    "properties": {
+      "amount": 425,
+      "payment_method": "paypal",
+      "phone": "+521477852691"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-03T09:39:51Z",
+    "properties": {
+      "amount": 630,
+      "payment_method": "credit_card",
+      "phone": "+521475740078"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-05T22:32:56Z",
+    "properties": {
+      "amount": 144,
+      "payment_method": "oxxo",
+      "phone": "+521337051738"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-01T12:39:00Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "CDMX",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-02T07:28:26Z",
+    "properties": {
+      "amount": 722,
+      "payment_method": "paypal",
+      "phone": "+521445350000"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-01T11:05:19Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "MTY",
+      "date": "2025/12/19"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": null,
+    "timestamp": "2025-12-02T20:36:23Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T19:35:18Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "CDMX",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-02T23:58:39Z",
+    "properties": {
+      "amount": 678,
+      "payment_method": "mercado_pago",
+      "phone": "+521992465513"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-06T16:36:53Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "QUER",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-03T19:00:54Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-02T05:12:41Z",
+    "properties": {
+      "amount": 554,
+      "payment_method": "paypal",
+      "phone": "+521811597217"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-05T17:06:18Z",
+    "properties": {
+      "amount": 606,
+      "payment_method": "credit_card",
+      "phone": "+521556258455"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-04T14:34:28Z",
+    "properties": {
+      "amount": 516,
+      "payment_method": "oxxo",
+      "phone": "+521442309887"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-04T20:42:37Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-02T20:49:14Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "CDMX",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-04T13:38:56Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "MTY",
+      "date": "2025/12/25"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-06T12:25:20Z",
+    "properties": {
+      "amount": 742,
+      "payment_method": "oxxo",
+      "phone": "+521338507826"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MMA2cnRu",
+    "timestamp": "2025-12-03T01:06:08Z",
+    "properties": {
+      "amount": 380,
+      "payment_method": "paypal",
+      "phone": "+521339702324"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "gpZdBcM3",
+    "timestamp": "2025-12-03T05:12:57Z",
+    "properties": {
+      "amount": 736,
+      "payment_method": "credit_card",
+      "phone": "+521332268939"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-01T15:08:37Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "MTY",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-02T13:11:10Z",
+    "properties": {
+      "amount": 625,
+      "payment_method": "mercado_pago",
+      "phone": "+521220435307"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "LOQrZCBL",
+    "timestamp": "2025-12-01T18:25:26Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "MTY",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-05T21:05:09Z",
+    "properties": {
+      "amount": 355,
+      "payment_method": "paypal",
+      "phone": "+521333522554"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MMA2cnRu",
+    "timestamp": "2025-12-02T01:10:48Z",
+    "properties": {
+      "amount": 213,
+      "payment_method": "oxxo",
+      "phone": "+52ABCDEF"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2yWryL0B",
+    "timestamp": "2025-12-02T08:29:50Z",
+    "properties": {
+      "amount": 230,
+      "payment_method": "mercado_pago",
+      "phone": "+521222510254"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-05T13:11:47Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "PUE",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "sXWZeDW7",
+    "timestamp": "2025-12-06T07:11:27Z",
+    "properties": {
+      "amount": 643,
+      "payment_method": "credit_card",
+      "phone": "+521559400521"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-05T00:18:46Z",
+    "properties": {
+      "amount": 627,
+      "payment_method": "mercado_pago",
+      "phone": "+521557264334"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-02T17:55:15Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/22"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "DBMEneE6",
+    "timestamp": "2025-12-02T22:30:25Z",
+    "properties": {
+      "amount": 964,
+      "payment_method": "credit_card",
+      "phone": "+521559592982"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-06T03:43:32Z",
+    "properties": {
+      "amount": 349,
+      "payment_method": "oxxo",
+      "phone": "+521446426517"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-04T10:57:05Z",
+    "properties": {
+      "amount": 114,
+      "payment_method": "mercado_pago",
+      "phone": "+521818162076"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "gpZdBcM3",
+    "timestamp": "2025-12-06T04:14:32Z",
+    "properties": {
+      "amount": 169,
+      "payment_method": "oxxo",
+      "phone": "+521554273200"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-05T11:25:23Z",
+    "properties": {
+      "amount": 503,
+      "payment_method": "credit_card",
+      "phone": "+521998881493"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "kbsBk0oD",
+    "timestamp": "2025-12-01T10:23:12Z",
+    "properties": {
+      "amount": 168,
+      "payment_method": "oxxo",
+      "phone": "+521224532372"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-06T12:07:45Z",
+    "properties": {
+      "amount": 260,
+      "payment_method": "mercado_pago",
+      "phone": "+521812201387"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-04T14:29:22Z",
+    "properties": {
+      "amount": 788,
+      "payment_method": "mercado_pago",
+      "phone": "+521330075933"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MMA2cnRu",
+    "timestamp": "2025-12-06T20:36:01Z",
+    "properties": {
+      "amount": 182,
+      "payment_method": "mercado_pago",
+      "phone": "+521472949182"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-06T10:20:06Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/03"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-03T13:37:11Z",
+    "properties": {
+      "amount": 716,
+      "payment_method": "oxxo",
+      "phone": "+521552011508"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9cMR8O00",
+    "timestamp": "2025-12-05T17:13:03Z",
+    "properties": {
+      "amount": 254,
+      "payment_method": "credit_card",
+      "phone": "+521440976694"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "vsMREhVz",
+    "timestamp": "2025-12-06T15:47:35Z",
+    "properties": {
+      "amount": 756,
+      "payment_method": "oxxo",
+      "phone": "+521555322340"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-01T23:55:24Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "CDMX",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-04T02:25:19Z",
+    "properties": {
+      "amount": 637,
+      "payment_method": "paypal",
+      "phone": "+521550429347"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-06T23:29:41Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "ON",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9cMR8O00",
+    "timestamp": "2025-12-04T02:35:15Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/04"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-03T14:34:42Z",
+    "properties": {
+      "amount": 892,
+      "payment_method": "oxxo",
+      "phone": "+521555852488"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-05T01:20:44Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "MTY",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-02T06:22:32Z",
+    "properties": {
+      "amount": 373,
+      "payment_method": "mercado_pago",
+      "phone": "+521335231352"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-03T17:41:30Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "GDL",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-05T21:18:53Z",
+    "properties": {
+      "amount": 286,
+      "payment_method": "credit_card",
+      "phone": "+521472388905"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "hbKABemN",
+    "timestamp": "2025-12-03T23:56:13Z",
+    "properties": {
+      "amount": 934,
+      "payment_method": "paypal",
+      "phone": "+521225573490"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-05T05:57:00Z",
+    "properties": {
+      "amount": 828,
+      "payment_method": "oxxo",
+      "phone": "+521991884885"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-03T17:57:53Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-06T00:08:29Z",
+    "properties": {
+      "amount": 795,
+      "payment_method": "oxxo",
+      "phone": "+521335092933"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-04T23:55:47Z",
+    "properties": {
+      "amount": 105,
+      "payment_method": "mercado_pago",
+      "phone": "+521470668854"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-04T20:51:46Z",
+    "properties": {
+      "amount": 400,
+      "payment_method": "credit_card",
+      "phone": "+521553425084"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-03T10:57:27Z",
+    "properties": {
+      "amount": 746,
+      "payment_method": "paypal",
+      "phone": "+521812867387"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-05T04:24:16Z",
+    "properties": {
+      "amount": 542,
+      "payment_method": "oxxo",
+      "phone": "+521812271856"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "vsMREhVz",
+    "timestamp": "2025-12-01T12:34:20Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "VER",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-01T15:20:34Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "ON",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-05T03:34:41Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-03T19:11:10Z",
+    "properties": {
+      "amount": 896,
+      "payment_method": "oxxo",
+      "phone": "+521996288446"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-04T22:10:27Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "QUER",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-06T04:47:55Z",
+    "properties": {
+      "amount": 354,
+      "payment_method": "mercado_pago",
+      "phone": "+521330316079"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-06T16:00:18Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "QUER",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-02T21:22:58Z",
+    "properties": {
+      "amount": 813,
+      "payment_method": "oxxo",
+      "phone": "+521477018260"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-01T22:30:33Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "S9Zt9xJk",
+    "timestamp": "2025-12-06T17:55:43Z",
+    "properties": {
+      "amount": 799,
+      "payment_method": "credit_card",
+      "phone": "+521552019192"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-05T16:16:04Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-02T21:40:33Z",
+    "properties": {
+      "amount": 547,
+      "payment_method": "mercado_pago",
+      "phone": "+521445829722"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-06T10:57:14Z",
+    "properties": {
+      "amount": 552,
+      "payment_method": "mercado_pago",
+      "phone": "+521223935552"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-04T01:08:36Z",
+    "properties": {
+      "amount": 953,
+      "payment_method": "paypal",
+      "phone": "+521447763450"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "RRoikhOX",
+    "timestamp": "2025-12-04T14:08:35Z",
+    "properties": {
+      "amount": 832,
+      "payment_method": "mercado_pago",
+      "phone": "+521815631044"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-01T23:05:50Z",
+    "properties": {
+      "amount": 825,
+      "payment_method": "oxxo",
+      "phone": "+521234"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-05T14:51:20Z",
+    "properties": {
+      "amount": 571,
+      "payment_method": "mercado_pago",
+      "phone": "+521470583775"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-06T20:09:37Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-06T07:56:20Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "CDMX",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SElOZZBh",
+    "timestamp": "2025-12-05T16:05:30Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "VER",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-04T03:50:00Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "ON",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "DBMEneE6",
+    "timestamp": "2025-12-03T10:19:49Z",
+    "properties": {
+      "amount": 171,
+      "payment_method": "paypal",
+      "phone": "+521815332954"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-05T19:47:25Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "ON",
+      "date": "2025/12/30"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-02T05:18:07Z",
+    "properties": {
+      "amount": 411,
+      "payment_method": "paypal",
+      "phone": "+521336123961"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-01T16:10:07Z",
+    "properties": {
+      "amount": 733,
+      "payment_method": "paypal",
+      "phone": "+521550969040"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "vsMREhVz",
+    "timestamp": "2025-12-06T05:03:21Z",
+    "properties": {
+      "amount": 300,
+      "payment_method": "credit_card",
+      "phone": "+521816427627"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oUwRiilM",
+    "timestamp": "2025-12-06T15:55:57Z",
+    "properties": {
+      "amount": 184,
+      "payment_method": "paypal",
+      "phone": "+521817111305"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-06T05:24:07Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "GDL",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-05T16:37:59Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "GDL",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-01T15:13:58Z",
+    "properties": {
+      "amount": 699,
+      "payment_method": "oxxo",
+      "phone": "+521474896377"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-04T20:42:12Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "ON",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-03T13:05:09Z",
+    "properties": {
+      "amount": 767,
+      "payment_method": "paypal",
+      "phone": "+521336948954"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-04T09:37:50Z",
+    "properties": {
+      "amount": 405,
+      "payment_method": "credit_card",
+      "phone": "+521445409315"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "S9Zt9xJk",
+    "timestamp": "2025-12-04T04:39:33Z",
+    "properties": {
+      "amount": 150,
+      "payment_method": "paypal",
+      "phone": "+521478607865"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "0TsYjiK6",
+    "timestamp": "2025-12-05T13:48:03Z",
+    "properties": {
+      "amount": 471,
+      "payment_method": "paypal",
+      "phone": "+521991002146"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-04T04:49:34Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "VER",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-04T16:15:44Z",
+    "properties": {
+      "amount": 599,
+      "payment_method": "paypal",
+      "phone": "+521993015096"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-02T23:38:20Z",
+    "properties": {
+      "amount": 352,
+      "payment_method": "oxxo",
+      "phone": "+521814416058"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-05T02:53:35Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "QUER",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-05T11:41:11Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "CDMX",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-05T16:46:38Z",
+    "properties": {
+      "amount": 799,
+      "payment_method": "paypal",
+      "phone": "+521228884397"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "hbKABemN",
+    "timestamp": "2025-12-06T21:16:09Z",
+    "properties": {
+      "amount": 963,
+      "payment_method": "paypal",
+      "phone": "123456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": null,
+    "timestamp": "2025-12-04T22:26:43Z",
+    "properties": {
+      "amount": 504,
+      "payment_method": "paypal",
+      "phone": "+521472132181"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-02T17:56:15Z",
+    "properties": {
+      "amount": 901,
+      "payment_method": "mercado_pago",
+      "phone": "+521555088713"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "fl2k5v02",
+    "timestamp": "2025-12-02T01:56:13Z",
+    "properties": {
+      "amount": 990,
+      "payment_method": "credit_card",
+      "phone": "+521334058050"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-04T08:28:18Z",
+    "properties": {
+      "amount": 993,
+      "payment_method": "oxxo",
+      "phone": "+521331798445"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-06T09:12:08Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-01T17:11:48Z",
+    "properties": {
+      "amount": 121,
+      "payment_method": "mercado_pago",
+      "phone": "+521990800671"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-02T07:08:45Z",
+    "properties": {
+      "amount": 689,
+      "payment_method": "credit_card",
+      "phone": "+521999679899"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-01T02:40:09Z",
+    "properties": {
+      "amount": 879,
+      "payment_method": "credit_card",
+      "phone": "+521476963277"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-04T15:40:53Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "fl2k5v02",
+    "timestamp": "2025-12-04T21:23:23Z",
+    "properties": {
+      "amount": 887,
+      "payment_method": "oxxo",
+      "phone": "+521997860293"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-03T00:16:25Z",
+    "properties": {
+      "amount": 130,
+      "payment_method": "oxxo",
+      "phone": "+521474003047"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Bv5epZXb",
+    "timestamp": "2025-12-01T22:53:45Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "QUER",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-04T00:02:45Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-04T07:34:17Z",
+    "properties": {
+      "amount": 462,
+      "payment_method": "oxxo",
+      "phone": "+521812330259"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kkrx4ZRk",
+    "timestamp": "2025-12-05T08:20:47Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "QUER",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-04T19:28:17Z",
+    "properties": {
+      "amount": 915,
+      "payment_method": "paypal",
+      "phone": "+521447434762"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-06T17:48:04Z",
+    "properties": {
+      "amount": 161,
+      "payment_method": "oxxo",
+      "phone": "+521997048759"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "DBMEneE6",
+    "timestamp": "2025-12-03T10:58:59Z",
+    "properties": {
+      "amount": 822,
+      "payment_method": "credit_card",
+      "phone": "+521332194705"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-02T23:01:30Z",
+    "properties": {
+      "amount": 180,
+      "payment_method": "oxxo",
+      "phone": "+521470245506"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-03T22:23:08Z",
+    "properties": {
+      "amount": 500,
+      "payment_method": "mercado_pago",
+      "phone": "+521336662495"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-02T07:20:10Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "QUER",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-02T08:39:53Z",
+    "properties": {
+      "amount": 471,
+      "payment_method": "credit_card",
+      "phone": "+521446917300"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-01T04:44:27Z",
+    "properties": {
+      "amount": 805,
+      "payment_method": "paypal",
+      "phone": "+521478353757"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-02T20:22:31Z",
+    "properties": {
+      "amount": 838,
+      "payment_method": "oxxo",
+      "phone": "123456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-02T18:37:01Z",
+    "properties": {
+      "amount": 720,
+      "payment_method": "oxxo",
+      "phone": "+521555601461"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-03T12:06:29Z",
+    "properties": {
+      "amount": 801,
+      "payment_method": "mercado_pago",
+      "phone": "+521442122777"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-01T11:18:16Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "j5KzuBWH",
+    "timestamp": "2025-12-05T00:17:26Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-03T06:43:32Z",
+    "properties": {
+      "amount": 951,
+      "payment_method": "oxxo",
+      "phone": "+521228776965"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-05T14:01:06Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "CDMX",
+      "date": "2025/12/18"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-04T19:34:47Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "MTY",
+      "date": "2025/12/12"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-02T17:05:43Z",
+    "properties": {
+      "amount": 264,
+      "payment_method": "credit_card",
+      "phone": "+521475817039"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-06T13:48:58Z",
+    "properties": {
+      "amount": 625,
+      "payment_method": "paypal",
+      "phone": "+521812932162"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-01T01:54:46Z",
+    "properties": {
+      "amount": 131,
+      "payment_method": "credit_card",
+      "phone": "+521556844537"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-02T22:30:18Z",
+    "properties": {
+      "amount": 921,
+      "payment_method": "credit_card",
+      "phone": "+521440643703"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "DBMEneE6",
+    "timestamp": "2025-12-05T13:33:10Z",
+    "properties": {
+      "amount": 992,
+      "payment_method": "oxxo",
+      "phone": "+521992497587"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cvnPQsOE",
+    "timestamp": "2025-12-06T14:31:09Z",
+    "properties": {
+      "amount": 798,
+      "payment_method": "mercado_pago",
+      "phone": "+521559584922"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-05T15:36:24Z",
+    "properties": {
+      "amount": 417,
+      "payment_method": "oxxo",
+      "phone": "+521473631169"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-06T06:11:19Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "PUE",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-02T14:43:46Z",
+    "properties": {
+      "amount": 812,
+      "payment_method": "mercado_pago",
+      "phone": "+521815350653"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-02T17:39:16Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/03"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-05T04:36:47Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "VER",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-06T09:04:59Z",
+    "properties": {
+      "amount": 376,
+      "payment_method": "paypal",
+      "phone": "+521819137507"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-06T02:54:55Z",
+    "properties": {
+      "amount": 154,
+      "payment_method": "credit_card",
+      "phone": "+521441440546"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-06T16:28:25Z",
+    "properties": {
+      "amount": 108,
+      "payment_method": "oxxo",
+      "phone": "+521999429646"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-02T22:26:11Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/12"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-03T06:20:31Z",
+    "properties": {
+      "amount": 237,
+      "payment_method": "mercado_pago",
+      "phone": "+521811310326"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-01T05:17:14Z",
+    "properties": {
+      "amount": 963,
+      "payment_method": "mercado_pago",
+      "phone": "+521475618765"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kkrx4ZRk",
+    "timestamp": "2025-12-01T00:56:15Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "CDMX",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-06T10:23:21Z",
+    "properties": {
+      "amount": 960,
+      "payment_method": "credit_card",
+      "phone": "+521991874392"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-02T23:04:20Z",
+    "properties": {
+      "amount": 173,
+      "payment_method": "credit_card",
+      "phone": "+521997410951"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-04T23:37:53Z",
+    "properties": {
+      "amount": 506,
+      "payment_method": "credit_card",
+      "phone": "+521814755180"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-02T04:37:06Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-05T19:28:03Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "PUE",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-02T03:41:57Z",
+    "properties": {
+      "amount": 280,
+      "payment_method": "paypal",
+      "phone": "+521556708444"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-06T22:16:17Z",
+    "properties": {
+      "amount": 153,
+      "payment_method": "credit_card",
+      "phone": "+521442078810"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-05T10:14:16Z",
+    "properties": {
+      "amount": 307,
+      "payment_method": "mercado_pago",
+      "phone": "+521476883901"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-06T12:03:03Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "PUE",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-04T12:47:28Z",
+    "properties": {
+      "amount": 990,
+      "payment_method": "credit_card",
+      "phone": "+521815372260"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-05T01:47:07Z",
+    "properties": {
+      "amount": 796,
+      "payment_method": "oxxo",
+      "phone": "+521994225112"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "j5KzuBWH",
+    "timestamp": "2025-12-01T03:56:38Z",
+    "properties": {
+      "amount": 291,
+      "payment_method": "mercado_pago",
+      "phone": "+521448791081"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "SWlFzNVY",
+    "timestamp": "2025-12-05T15:15:39Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "0TsYjiK6",
+    "timestamp": "2025-12-04T01:46:06Z",
+    "properties": {
+      "amount": 601,
+      "payment_method": "credit_card",
+      "phone": "+521813177476"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-06T18:44:08Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-03T05:02:53Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "MTY",
+      "date": "2025/12/22"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-05T20:07:45Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "ON",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-06T13:52:50Z",
+    "properties": {
+      "amount": 455,
+      "payment_method": "credit_card",
+      "phone": "+521227299261"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-02T21:57:01Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-04T18:56:44Z",
+    "properties": {
+      "amount": 720,
+      "payment_method": "paypal",
+      "phone": "+521227213782"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-04T06:13:53Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "QUER",
+      "date": "2025/12/13"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "SElOZZBh",
+    "timestamp": "2025-12-02T15:36:33Z",
+    "properties": {
+      "amount": 233,
+      "payment_method": "paypal",
+      "phone": "+521449946877"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-04T01:27:15Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "QUER",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-06T22:36:25Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Uxwf8OVP",
+    "timestamp": "2025-12-06T19:58:04Z",
+    "properties": {
+      "amount": 380,
+      "payment_method": "paypal",
+      "phone": "+521470564654"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-03T07:57:49Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "QUER",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-06T22:54:31Z",
+    "properties": {
+      "amount": 109,
+      "payment_method": "oxxo",
+      "phone": "+521554508027"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-02T04:26:25Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "MTY",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-04T19:46:49Z",
+    "properties": {
+      "amount": 409,
+      "payment_method": "credit_card",
+      "phone": "+521475622004"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-03T14:00:35Z",
+    "properties": {
+      "amount": 837,
+      "payment_method": "paypal",
+      "phone": "999999999999522"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-06T01:31:24Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "CDMX",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-06T22:20:37Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-06T02:50:45Z",
+    "properties": {
+      "amount": 183,
+      "payment_method": "credit_card",
+      "phone": "+521811131677"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-02T21:53:54Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "QUER",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-06T05:45:42Z",
+    "properties": {
+      "amount": 923,
+      "payment_method": "oxxo",
+      "phone": "+521816349787"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-06T02:51:59Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2yWryL0B",
+    "timestamp": "2025-12-05T20:21:33Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "VER",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "S9Zt9xJk",
+    "timestamp": "2025-12-06T06:46:03Z",
+    "properties": {
+      "amount": 211,
+      "payment_method": "mercado_pago",
+      "phone": "+521335650395"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-01T03:27:57Z",
+    "properties": {
+      "amount": 488,
+      "payment_method": "paypal",
+      "phone": "+521992494565"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-02T04:52:02Z",
+    "properties": {
+      "amount": 962,
+      "payment_method": "mercado_pago",
+      "phone": "+521330612518"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-02T23:09:02Z",
+    "properties": {
+      "amount": 455,
+      "payment_method": "credit_card",
+      "phone": "+521811579755"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-06T09:57:01Z",
+    "properties": {
+      "amount": 165,
+      "payment_method": "oxxo",
+      "phone": "+521991626282"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "fl2k5v02",
+    "timestamp": "2025-12-02T19:56:11Z",
+    "properties": {}
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-01T02:06:31Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-03T06:32:19Z",
+    "properties": {
+      "amount": 282,
+      "payment_method": "mercado_pago",
+      "phone": "+521550836456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": null,
+    "timestamp": "2025-12-06T10:07:48Z",
+    "properties": {
+      "amount": 863,
+      "payment_method": "credit_card",
+      "phone": "+521332408729"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-02T00:22:22Z",
+    "properties": {
+      "amount": 102,
+      "payment_method": "mercado_pago",
+      "phone": "+521339860578"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-06T22:02:55Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "VER",
+      "date": "2025/12/30"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-01T15:30:50Z",
+    "properties": {
+      "amount": 645,
+      "payment_method": "oxxo",
+      "phone": "+521554300310"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-03T07:48:37Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "CDMX",
+      "date": "2025/12/17"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-01T04:07:29Z",
+    "properties": {
+      "amount": 292,
+      "payment_method": "credit_card",
+      "phone": "+521335382850"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-02T23:52:16Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "MMA2cnRu",
+    "timestamp": "2025-12-05T05:26:16Z",
+    "properties": {
+      "amount": 803,
+      "payment_method": "oxxo",
+      "phone": "+521815925545"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-03T00:30:34Z",
+    "properties": {
+      "amount": 871,
+      "payment_method": "mercado_pago",
+      "phone": "+521470683361"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-04T17:19:19Z",
+    "properties": {
+      "amount": 356,
+      "payment_method": "credit_card",
+      "phone": "+521224078213"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": null,
+    "timestamp": "2025-12-02T06:43:30Z",
+    "properties": {
+      "amount": 663,
+      "payment_method": "mercado_pago",
+      "phone": "+521331647572"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-05T06:07:27Z",
+    "properties": {
+      "amount": 253,
+      "payment_method": "mercado_pago",
+      "phone": "+521997299865"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-02T09:17:39Z",
+    "properties": {
+      "amount": 698,
+      "payment_method": "oxxo",
+      "phone": "+521999210946"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-01T14:29:43Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-02T03:02:49Z",
+    "properties": {
+      "amount": 797,
+      "payment_method": "oxxo",
+      "phone": "+521815470685"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-03T09:20:25Z",
+    "properties": {
+      "amount": 387,
+      "payment_method": "paypal",
+      "phone": "+521332812120"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "sXWZeDW7",
+    "timestamp": "2025-12-03T20:56:53Z",
+    "properties": {
+      "amount": 704,
+      "payment_method": "mercado_pago",
+      "phone": "+521222026261"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Uxwf8OVP",
+    "timestamp": "2025-12-06T18:32:05Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "GDL",
+      "date": "2025/12/25"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-02T06:39:55Z",
+    "properties": {
+      "amount": 632,
+      "payment_method": "credit_card",
+      "phone": "+521813452820"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-05T17:49:25Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "GDL",
+      "date": "2025/12/19"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-01T12:43:33Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "GDL",
+      "date": "2025/12/17"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-05T20:48:18Z",
+    "properties": {
+      "amount": 950,
+      "payment_method": "paypal",
+      "phone": "+521990822467"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-06T11:26:51Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "VER",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-05T00:55:14Z",
+    "properties": {
+      "amount": 730,
+      "payment_method": "paypal",
+      "phone": "+521995247483"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-02T09:32:02Z",
+    "properties": {
+      "amount": 671,
+      "payment_method": "oxxo",
+      "phone": "+521226157665"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-04T04:43:35Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "MTY",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-02T22:06:07Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "QUER",
+      "date": "2025/12/06"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cvnPQsOE",
+    "timestamp": "2025-12-03T12:52:01Z",
+    "properties": {
+      "amount": 321,
+      "payment_method": "credit_card",
+      "phone": "+521336479166"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-04T02:16:12Z",
+    "properties": {
+      "amount": 993,
+      "payment_method": "mercado_pago",
+      "phone": "+521442927202"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-06T03:31:17Z",
+    "properties": {
+      "amount": 392,
+      "payment_method": "paypal",
+      "phone": "+521819164661"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-06T09:17:31Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "PUE",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-06T23:34:56Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "CDMX",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-03T20:38:06Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "GDL",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-04T17:16:23Z",
+    "properties": {
+      "amount": 681,
+      "payment_method": "paypal",
+      "phone": "+521333775733"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-01T19:57:08Z",
+    "properties": {
+      "amount": 461,
+      "payment_method": "paypal",
+      "phone": "+521440630789"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-03T19:23:15Z",
+    "properties": {
+      "amount": 282,
+      "payment_method": "oxxo",
+      "phone": "+521555797679"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-04T13:59:01Z",
+    "properties": {
+      "amount": 765,
+      "payment_method": "mercado_pago",
+      "phone": "+521811593188"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-02T02:20:51Z",
+    "properties": {
+      "amount": 101,
+      "payment_method": "credit_card",
+      "phone": "+521991169756"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-03T09:23:08Z",
+    "properties": {
+      "amount": 748,
+      "payment_method": "credit_card",
+      "phone": "+521220343169"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-03T20:30:39Z",
+    "properties": {
+      "amount": 148,
+      "payment_method": "mercado_pago",
+      "phone": "+521228224325"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-02T17:52:09Z",
+    "properties": {
+      "amount": 884,
+      "payment_method": "paypal",
+      "phone": "+521440041425"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-05T17:04:10Z",
+    "properties": {
+      "amount": 869,
+      "payment_method": "credit_card",
+      "phone": "+521553074254"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-03T20:48:56Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "MTY",
+      "date": "2025/12/12"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9cMR8O00",
+    "timestamp": "2025-12-06T19:45:19Z",
+    "properties": {
+      "amount": 556,
+      "payment_method": "paypal",
+      "phone": "+521339602881"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-04T07:22:25Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "MTY",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-04T19:29:51Z",
+    "properties": {
+      "amount": 110,
+      "payment_method": "mercado_pago",
+      "phone": "+521332771089"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-06T01:50:00Z",
+    "properties": {
+      "amount": 760,
+      "payment_method": "credit_card",
+      "phone": "+521223035057"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-03T12:29:48Z",
+    "properties": {
+      "amount": 983,
+      "payment_method": "mercado_pago",
+      "phone": "+521221247246"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2yWryL0B",
+    "timestamp": "2025-12-01T09:41:32Z",
+    "properties": {
+      "amount": 324,
+      "payment_method": "paypal",
+      "phone": "+521811728903"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-05T00:46:43Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/10"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-06T15:03:31Z",
+    "properties": {
+      "amount": 315,
+      "payment_method": "credit_card",
+      "phone": "+521333027984"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-01T10:10:28Z",
+    "properties": {
+      "amount": 401,
+      "payment_method": "oxxo",
+      "phone": "+521557726518"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-01T18:35:20Z",
+    "properties": {
+      "amount": 423,
+      "payment_method": "mercado_pago",
+      "phone": "+521818946417"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-04T00:35:48Z",
+    "properties": {
+      "amount": 797,
+      "payment_method": "mercado_pago",
+      "phone": "+521447983855"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-01T20:56:29Z",
+    "properties": {
+      "amount": 603,
+      "payment_method": "mercado_pago",
+      "phone": "+521330496544"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oUwRiilM",
+    "timestamp": "2025-12-05T18:23:10Z",
+    "properties": {
+      "amount": 840,
+      "payment_method": "mercado_pago",
+      "phone": "+521338491323"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-02T11:44:56Z",
+    "properties": {
+      "amount": 856,
+      "payment_method": "mercado_pago",
+      "phone": "+521996964528"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "0TsYjiK6",
+    "timestamp": "2025-12-06T23:41:13Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "CDMX",
+      "date": "2025/12/27"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-02T13:32:45Z",
+    "properties": {
+      "amount": 892,
+      "payment_method": "oxxo",
+      "phone": "+521330719016"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "RFwttjot",
+    "timestamp": "2025-12-06T05:06:37Z",
+    "properties": {
+      "amount": 781,
+      "payment_method": "mercado_pago",
+      "phone": "+521475125217"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-02T10:07:59Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "QUER",
+      "date": "2025/12/15"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-03T22:30:24Z",
+    "properties": {
+      "amount": 573,
+      "payment_method": "paypal",
+      "phone": "+521477197457"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-03T14:59:54Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-06T01:08:58Z",
+    "properties": {
+      "amount": 973,
+      "payment_method": "paypal",
+      "phone": "+521220025779"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": null,
+    "timestamp": "2025-12-04T23:22:08Z",
+    "properties": {
+      "amount": 896,
+      "payment_method": "paypal",
+      "phone": "+521443846850"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-03T13:57:59Z",
+    "properties": {
+      "amount": 761,
+      "payment_method": "mercado_pago",
+      "phone": "+521222743078"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-02T23:27:14Z",
+    "properties": {
+      "amount": 624,
+      "payment_method": "paypal",
+      "phone": "+521225350653"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Uxwf8OVP",
+    "timestamp": "2025-12-05T21:56:07Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/10"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "9cMR8O00",
+    "timestamp": "2025-12-01T10:38:09Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/20"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-04T15:58:42Z",
+    "properties": {
+      "amount": 832,
+      "payment_method": "mercado_pago",
+      "phone": "+521557510936"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-04T17:30:05Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "GDL",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-06T09:47:10Z",
+    "properties": {
+      "amount": 558,
+      "payment_method": "mercado_pago",
+      "phone": "+521448765828"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-06T10:20:39Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "ON",
+      "date": "2025/12/17"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-01T11:47:55Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "GDL",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T18:35:28Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2wGX4taj",
+    "timestamp": "2025-12-01T17:16:11Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/13"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-06T20:20:45Z",
+    "properties": {
+      "amount": 778,
+      "payment_method": "paypal",
+      "phone": "+521993085241"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T06:17:02Z",
+    "properties": {
+      "amount": 399,
+      "payment_method": "mercado_pago",
+      "phone": "+521444500397"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Uxwf8OVP",
+    "timestamp": "2025-12-01T09:09:42Z",
+    "properties": {
+      "amount": 823,
+      "payment_method": "credit_card",
+      "phone": "+521556357346"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-03T07:20:38Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "MTY",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-05T00:02:56Z",
+    "properties": {
+      "amount": 426,
+      "payment_method": "mercado_pago",
+      "phone": "+521333543239"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-04T23:10:26Z",
+    "properties": {
+      "amount": 431,
+      "payment_method": "paypal",
+      "phone": "+521477716778"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oUwRiilM",
+    "timestamp": "2025-12-01T00:38:14Z",
+    "properties": {
+      "amount": 668,
+      "payment_method": "credit_card",
+      "phone": "+521220015616"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-03T12:47:29Z",
+    "properties": {
+      "amount": 742,
+      "payment_method": "oxxo",
+      "phone": "+521334658332"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-01T17:37:29Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "ON",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-02T15:53:50Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "ON",
+      "date": "2025/12/04"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SElOZZBh",
+    "timestamp": "2025-12-05T06:47:11Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": null,
+    "timestamp": "2025-12-03T18:41:16Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "PUE",
+      "date": "2025/12/04"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "sXWZeDW7",
+    "timestamp": "2025-12-02T00:16:00Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "QUER",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "kkrx4ZRk",
+    "timestamp": "2025-12-02T20:03:40Z",
+    "properties": {
+      "amount": 126,
+      "payment_method": "oxxo",
+      "phone": "+521477246935"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-05T03:38:08Z",
+    "properties": {
+      "amount": 918,
+      "payment_method": "paypal",
+      "phone": "+521225060972"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-01T20:31:14Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "GDL",
+      "date": "2025/12/03"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-01T20:04:09Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "ON",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-04T03:07:33Z",
+    "properties": {
+      "amount": 720,
+      "payment_method": "mercado_pago",
+      "phone": "+521551209926"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-03T11:17:18Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "VER",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-05T13:45:11Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-05T11:25:02Z",
+    "properties": {
+      "amount": 110,
+      "payment_method": "paypal",
+      "phone": "+521815255662"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-04T23:37:17Z",
+    "properties": {
+      "amount": 110,
+      "payment_method": "mercado_pago",
+      "phone": "+521336170571"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "fl2k5v02",
+    "timestamp": "2025-12-06T02:51:13Z",
+    "properties": {
+      "amount": 715,
+      "payment_method": "paypal",
+      "phone": "+521221262482"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-05T07:35:03Z",
+    "properties": {
+      "amount": 218,
+      "payment_method": "oxxo",
+      "phone": "+521225999986"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cvnPQsOE",
+    "timestamp": "2025-12-06T19:41:15Z",
+    "properties": {
+      "amount": 371,
+      "payment_method": "credit_card",
+      "phone": "+521223119158"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "m5whtGIT",
+    "timestamp": "2025-12-05T18:37:23Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-01T20:58:11Z",
+    "properties": {
+      "amount": 819,
+      "payment_method": "credit_card",
+      "phone": "+521229166852"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-01T12:04:22Z",
+    "properties": {
+      "amount": 531,
+      "payment_method": "mercado_pago",
+      "phone": "+521220719648"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gpZdBcM3",
+    "timestamp": "2025-12-02T22:29:27Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "QUER",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "9D29by5T",
+    "timestamp": "2025-12-01T07:56:12Z",
+    "properties": {
+      "amount": 205,
+      "payment_method": "mercado_pago",
+      "phone": "123456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-03T11:41:57Z",
+    "properties": {
+      "amount": 960,
+      "payment_method": "oxxo",
+      "phone": "+521476686888"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-02T23:23:23Z",
+    "properties": {
+      "amount": 788,
+      "payment_method": "paypal",
+      "phone": "+521990633175"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-01T21:11:42Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "MTY",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-01T13:53:28Z",
+    "properties": {
+      "amount": 451,
+      "payment_method": "mercado_pago",
+      "phone": "+521476859588"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-06T03:42:24Z",
+    "properties": {
+      "amount": 749,
+      "payment_method": "mercado_pago",
+      "phone": "+521815292471"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-06T08:23:47Z",
+    "properties": {
+      "amount": 827,
+      "payment_method": "paypal",
+      "phone": "+521449387651"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Bv5epZXb",
+    "timestamp": "2025-12-02T23:59:32Z",
+    "properties": {
+      "amount": 241,
+      "payment_method": "credit_card",
+      "phone": "+521472407401"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-05T14:14:43Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "PUE",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "A1yKurJj",
+    "timestamp": "2025-12-04T15:36:17Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": null,
+    "timestamp": "2025-12-05T01:53:36Z",
+    "properties": {
+      "amount": 630,
+      "payment_method": "oxxo",
+      "phone": "+521551382521"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "GZGE7XqJ",
+    "timestamp": "2025-12-02T23:49:05Z",
+    "properties": {
+      "amount": 728,
+      "payment_method": "paypal",
+      "phone": "+521998698176"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-04T09:21:04Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "QUER",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-05T09:24:03Z",
+    "properties": {
+      "amount": 699,
+      "payment_method": "mercado_pago",
+      "phone": "+521446140984"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-06T01:26:45Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-05T03:45:33Z",
+    "properties": {
+      "amount": 316,
+      "payment_method": "oxxo",
+      "phone": "+521335576856"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-03T19:48:20Z",
+    "properties": {
+      "amount": 406,
+      "payment_method": "oxxo",
+      "phone": "+521552666193"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-06T14:59:35Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-03T11:24:55Z",
+    "properties": {
+      "amount": 421,
+      "payment_method": "credit_card",
+      "phone": "+521444213546"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-04T13:37:37Z",
+    "properties": {
+      "amount": 419,
+      "payment_method": "paypal",
+      "phone": "+521993853232"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-02T00:49:43Z",
+    "properties": {
+      "amount": 246,
+      "payment_method": "oxxo",
+      "phone": "+521331994723"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T06:14:15Z",
+    "properties": {
+      "amount": 203,
+      "payment_method": "oxxo",
+      "phone": "+521812076106"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-02T08:35:46Z",
+    "properties": {
+      "amount": 144,
+      "payment_method": "credit_card",
+      "phone": "+521473469660"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-01T16:11:09Z",
+    "properties": {
+      "amount": 399,
+      "payment_method": "mercado_pago",
+      "phone": "+521446432452"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-01T06:01:19Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "PUE",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "LOQrZCBL",
+    "timestamp": "2025-12-04T11:18:06Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-04T11:39:03Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "MTY",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-03T06:07:42Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-03T02:21:37Z",
+    "properties": {
+      "amount": 567,
+      "payment_method": "credit_card",
+      "phone": "+521473345209"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-02T20:52:38Z",
+    "properties": {
+      "amount": 157,
+      "payment_method": "mercado_pago",
+      "phone": "+521558741170"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-06T02:14:00Z",
+    "properties": {
+      "amount": 592,
+      "payment_method": "paypal",
+      "phone": "+521817984923"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-06T04:07:38Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-02T21:42:51Z",
+    "properties": {
+      "amount": 123,
+      "payment_method": "paypal",
+      "phone": "+521449638832"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-02T14:18:53Z",
+    "properties": {
+      "amount": 736,
+      "payment_method": "credit_card",
+      "phone": "+521474627455"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-03T09:56:56Z",
+    "properties": {
+      "amount": 911,
+      "payment_method": "credit_card",
+      "phone": "+521550682964"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-06T05:21:00Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-01T15:57:54Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "PUE",
+      "date": "2025/12/29"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-03T03:44:20Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "PUE",
+      "date": "2025/12/19"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-03T20:20:12Z",
+    "properties": {
+      "amount": 477,
+      "payment_method": "oxxo",
+      "phone": "+521814238823"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "oUwRiilM",
+    "timestamp": "2025-12-05T02:28:26Z",
+    "properties": {
+      "amount": 825,
+      "payment_method": "oxxo",
+      "phone": "+521227299130"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-04T21:03:55Z",
+    "properties": {
+      "amount": 586,
+      "payment_method": "mercado_pago",
+      "phone": "+521220253799"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-06T07:32:47Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "MTY",
+      "date": "2025/12/25"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbsBk0oD",
+    "timestamp": "2025-12-06T19:22:26Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "MTY",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "279CmB1x",
+    "timestamp": "2025-12-05T05:36:03Z",
+    "properties": {
+      "amount": 978,
+      "payment_method": "credit_card",
+      "phone": "+521226029222"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cmGQa35n",
+    "timestamp": "2025-12-01T20:36:04Z",
+    "properties": {
+      "amount": 480,
+      "payment_method": "mercado_pago",
+      "phone": "+521445740870"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-04T13:13:05Z",
+    "properties": {
+      "amount": 623,
+      "payment_method": "credit_card",
+      "phone": "+521441341220"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-02T09:01:15Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/12"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "0TsYjiK6",
+    "timestamp": "2025-12-02T08:21:35Z",
+    "properties": {
+      "amount": 207,
+      "payment_method": "oxxo",
+      "phone": "+521443037387"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-05T21:49:09Z",
+    "properties": {
+      "amount": 619,
+      "payment_method": "paypal",
+      "phone": "+521332378374"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-03T18:49:45Z",
+    "properties": {
+      "amount": 450,
+      "payment_method": "paypal",
+      "phone": "+521994652288"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "A1yKurJj",
+    "timestamp": "2025-12-01T04:21:03Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-01T11:34:26Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "QUER",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-04T05:22:12Z",
+    "properties": {
+      "amount": 941,
+      "payment_method": "paypal",
+      "phone": "+521812578942"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-03T08:13:03Z",
+    "properties": {
+      "amount": 822,
+      "payment_method": "mercado_pago",
+      "phone": "+521995182848"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-05T23:11:28Z",
+    "properties": {
+      "amount": 336,
+      "payment_method": "oxxo",
+      "phone": "+521479766951"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-01T10:55:52Z",
+    "properties": {
+      "amount": 455,
+      "payment_method": "oxxo",
+      "phone": "999999999999522"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "LOQrZCBL",
+    "timestamp": "2025-12-02T09:05:01Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "QUER",
+      "date": "2025/12/31"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-04T13:00:40Z",
+    "properties": {
+      "amount": 529,
+      "payment_method": "credit_card",
+      "phone": "+521224935017"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-06T02:03:39Z",
+    "properties": {
+      "amount": 155,
+      "payment_method": "credit_card",
+      "phone": "+521444169865"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-06T18:30:31Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "ON",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-02T02:03:50Z",
+    "properties": {
+      "amount": 311,
+      "payment_method": "credit_card",
+      "phone": "+521448533174"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-05T10:37:26Z",
+    "properties": {
+      "amount": 396,
+      "payment_method": "paypal",
+      "phone": "+521447572213"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-06T12:58:38Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "QUER",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-05T08:18:18Z",
+    "properties": {
+      "amount": 507,
+      "payment_method": "paypal",
+      "phone": "+521337091645"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-01T01:46:35Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "PUE",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "B5TxEdY1",
+    "timestamp": "2025-12-03T10:57:10Z",
+    "properties": {
+      "amount": 445,
+      "payment_method": "credit_card",
+      "phone": "+521814386404"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "vsMREhVz",
+    "timestamp": "2025-12-04T00:08:11Z",
+    "properties": {
+      "amount": 586,
+      "payment_method": "credit_card",
+      "phone": "+521444647315"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-05T17:10:45Z",
+    "properties": {
+      "amount": 750,
+      "payment_method": "mercado_pago",
+      "phone": "+521819514153"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-02T20:20:51Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "CDMX",
+      "date": "2025/12/16"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-05T02:30:55Z",
+    "properties": {
+      "amount": 328,
+      "payment_method": "credit_card",
+      "phone": "+521993354342"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-01T09:56:21Z",
+    "properties": {
+      "amount": 609,
+      "payment_method": "credit_card",
+      "phone": "+521819023657"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-06T08:34:01Z",
+    "properties": {
+      "amount": 328,
+      "payment_method": "mercado_pago",
+      "phone": "123456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-06T21:33:18Z",
+    "properties": {
+      "amount": 377,
+      "payment_method": "credit_card",
+      "phone": "+521331625214"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-02T06:25:46Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "CDMX",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "0TsYjiK6",
+    "timestamp": "2025-12-06T08:47:40Z",
+    "properties": {
+      "amount": 998,
+      "payment_method": "credit_card",
+      "phone": "+521819749714"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-01T09:42:32Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "MTY",
+      "date": "2025/12/25"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-01T08:28:56Z",
+    "properties": {
+      "amount": 602,
+      "payment_method": "mercado_pago",
+      "phone": "+521992263841"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-06T21:32:42Z",
+    "properties": {
+      "amount": 898,
+      "payment_method": "paypal",
+      "phone": "+521810227544"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-01T00:45:40Z",
+    "properties": {
+      "amount": 938,
+      "payment_method": "mercado_pago",
+      "phone": "+521553595997"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-05T17:44:09Z",
+    "properties": {
+      "amount": 115,
+      "payment_method": "mercado_pago",
+      "phone": "+521334836334"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-04T04:59:36Z",
+    "properties": {
+      "amount": 997,
+      "payment_method": "credit_card",
+      "phone": "+521811555340"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-01T02:19:04Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "QUER",
+      "date": "2025/12/03"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-03T18:31:09Z",
+    "properties": {
+      "amount": 228,
+      "payment_method": "credit_card",
+      "phone": "+521554884221"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-02T21:37:05Z",
+    "properties": {
+      "amount": 545,
+      "payment_method": "credit_card",
+      "phone": "+521811347142"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-06T14:05:47Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-04T07:13:59Z",
+    "properties": {
+      "amount": 952,
+      "payment_method": "credit_card",
+      "phone": "+521474626822"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-05T09:07:45Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "GDL",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "uGm3dky8",
+    "timestamp": "2025-12-04T11:26:48Z",
+    "properties": {
+      "amount": 389,
+      "payment_method": "mercado_pago",
+      "phone": "+521473042469"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-02T15:05:50Z",
+    "properties": {
+      "amount": 198,
+      "payment_method": "oxxo",
+      "phone": "+521819679717"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": null,
+    "timestamp": "2025-12-01T08:28:47Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "PUE",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-05T15:01:31Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "CDMX",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-05T01:45:15Z",
+    "properties": {
+      "amount": 370,
+      "payment_method": "credit_card",
+      "phone": "+521221179197"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-04T20:02:42Z",
+    "properties": {}
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-06T17:42:03Z",
+    "properties": {
+      "amount": 190,
+      "payment_method": "credit_card",
+      "phone": "+521330371726"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-04T05:44:02Z",
+    "properties": {
+      "amount": 770,
+      "payment_method": "paypal",
+      "phone": "+521223470922"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-05T06:50:46Z",
+    "properties": {
+      "amount": 728,
+      "payment_method": "paypal",
+      "phone": "+521818994392"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-05T14:13:07Z",
+    "properties": {
+      "amount": 879,
+      "payment_method": "mercado_pago",
+      "phone": "+521475588181"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-03T04:12:43Z",
+    "properties": {
+      "amount": 492,
+      "payment_method": "mercado_pago",
+      "phone": "+521993652699"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-01T04:36:59Z",
+    "properties": {
+      "amount": 735,
+      "payment_method": "mercado_pago",
+      "phone": "+521557431029"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "D098E0cw",
+    "timestamp": "2025-12-04T12:35:36Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "ON",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-05T22:02:14Z",
+    "properties": {
+      "amount": 415,
+      "payment_method": "credit_card",
+      "phone": "+521556210390"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-04T20:42:39Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-03T00:57:21Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "CDMX",
+      "date": "2025/12/18"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-02T01:27:05Z",
+    "properties": {
+      "amount": 316,
+      "payment_method": "oxxo",
+      "phone": "+521818814563"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "JPfxceF2",
+    "timestamp": "2025-12-02T04:52:03Z",
+    "properties": {
+      "amount": 299,
+      "payment_method": "mercado_pago",
+      "phone": "+521226824076"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-02T07:35:55Z",
+    "properties": {
+      "amount": 522,
+      "payment_method": "mercado_pago",
+      "phone": "+521229943496"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gpZdBcM3",
+    "timestamp": "2025-12-05T02:48:24Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/07"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "2yWryL0B",
+    "timestamp": "2025-12-06T05:19:53Z",
+    "properties": {
+      "amount": 981,
+      "payment_method": "mercado_pago",
+      "phone": "+521229397057"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "gUwvZ2Fg",
+    "timestamp": "2025-12-06T23:26:02Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-01T19:03:40Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/17"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-06T03:24:08Z",
+    "properties": {
+      "amount": 677,
+      "payment_method": "paypal",
+      "phone": "+521812391501"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "nOJV3mYj",
+    "timestamp": "2025-12-04T21:51:48Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "MTY",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-05T08:50:57Z",
+    "properties": {
+      "amount": 265,
+      "payment_method": "mercado_pago",
+      "phone": "+521443549105"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "P0Wwmr9M",
+    "timestamp": "2025-12-02T01:09:02Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "MTY",
+      "date": "2025/12/08"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-05T11:04:19Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "GDL",
+      "date": "2025/12/14"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-06T03:30:06Z",
+    "properties": {
+      "amount": 140,
+      "payment_method": "paypal",
+      "phone": "+521812172213"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-06T04:00:17Z",
+    "properties": {
+      "amount": 243,
+      "payment_method": "paypal",
+      "phone": "+521223665761"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "eSklPKEE",
+    "timestamp": "2025-12-04T03:41:20Z",
+    "properties": {
+      "amount": 375,
+      "payment_method": "mercado_pago",
+      "phone": "+521229411431"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "cvnPQsOE",
+    "timestamp": "2025-12-01T14:08:16Z",
+    "properties": {
+      "amount": 271,
+      "payment_method": "mercado_pago",
+      "phone": "+521445312532"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "SWlFzNVY",
+    "timestamp": "2025-12-06T00:43:30Z",
+    "properties": {
+      "amount": 376,
+      "payment_method": "paypal",
+      "phone": "+521812570225"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-06T19:27:20Z",
+    "properties": {
+      "amount": 457,
+      "payment_method": "paypal",
+      "phone": "+521471579978"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "VQ4MIY9S",
+    "timestamp": "2025-12-05T01:44:09Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "ON",
+      "date": "2025/12/09"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "VSf4JFqT",
+    "timestamp": "2025-12-03T21:03:49Z",
+    "properties": {
+      "amount": 463,
+      "payment_method": "oxxo",
+      "phone": "+521992175915"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-06T19:31:34Z",
+    "properties": {
+      "amount": 814,
+      "payment_method": "paypal",
+      "phone": "+521815796727"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "V0BDfrf9",
+    "timestamp": "2025-12-03T01:53:03Z",
+    "properties": {
+      "amount": 886,
+      "payment_method": "oxxo",
+      "phone": "+521557581989"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-02T08:01:36Z",
+    "properties": {
+      "amount": 443,
+      "payment_method": "credit_card",
+      "phone": "+521475432112"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-05T21:32:38Z",
+    "properties": {
+      "amount": 977,
+      "payment_method": "oxxo",
+      "phone": "+521222377393"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "yB8LzFGW",
+    "timestamp": "2025-12-01T00:30:31Z",
+    "properties": {
+      "amount": 784,
+      "payment_method": "mercado_pago",
+      "phone": "+521470897520"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-04T05:05:25Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "MTY",
+      "date": "2025/12/24"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-01T00:24:03Z",
+    "properties": {
+      "amount": 292,
+      "payment_method": "credit_card",
+      "phone": "+521229071759"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-02T15:07:11Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "QUER",
+      "date": "2025/12/30"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-05T18:26:15Z",
+    "properties": {
+      "amount": 221,
+      "payment_method": "credit_card",
+      "phone": "+521815797527"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-06T01:26:44Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "QUER",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "pdJQrLwd",
+    "timestamp": "2025-12-04T16:36:20Z",
+    "properties": {
+      "amount": 963,
+      "payment_method": "paypal",
+      "phone": "+521557369928"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "iY1M2cuq",
+    "timestamp": "2025-12-02T17:48:51Z",
+    "properties": {
+      "amount": 340,
+      "payment_method": "oxxo",
+      "phone": "+521338923451"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "ZnsLnnsA",
+    "timestamp": "2025-12-01T19:43:54Z",
+    "properties": {
+      "amount": 826,
+      "payment_method": "paypal",
+      "phone": "+521555205205"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "yw2iu7E1",
+    "timestamp": "2025-12-06T22:03:10Z",
+    "properties": {
+      "amount": 191,
+      "payment_method": "mercado_pago",
+      "phone": "+521475473819"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-04T12:39:06Z",
+    "properties": {
+      "amount": 101,
+      "payment_method": "credit_card",
+      "phone": "+521815049934"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2OabBg54",
+    "timestamp": "2025-12-02T05:52:51Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "PUE",
+      "date": "2025/12/28"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Dg4ps3jO",
+    "timestamp": "2025-12-06T03:58:04Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "PUE",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jkN6vLLe",
+    "timestamp": "2025-12-01T21:06:33Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "ON",
+      "date": "2025/12/05"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-05T04:22:12Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "VER",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Gt0YesGA",
+    "timestamp": "2025-12-06T15:05:22Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "CDMX",
+      "date": "2025/12/01"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "sXWZeDW7",
+    "timestamp": "2025-12-06T06:09:17Z",
+    "properties": {
+      "amount": 659,
+      "payment_method": "paypal",
+      "phone": "+521222124787"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "Aej5JH9H",
+    "timestamp": "2025-12-02T20:15:24Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "ON",
+      "date": "2025/12/12"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "dd2td2NE",
+    "timestamp": "2025-12-04T09:44:20Z",
+    "properties": {
+      "origin": "MTY",
+      "destination": "VER",
+      "date": "2025/12/23"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "maSFk6ft",
+    "timestamp": "2025-12-03T23:50:52Z",
+    "properties": {
+      "amount": 335,
+      "payment_method": "mercado_pago",
+      "phone": "+521475395407"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-06T11:39:57Z",
+    "properties": {
+      "amount": 455,
+      "payment_method": "paypal",
+      "phone": "+521229826045"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "kbjZIkgt",
+    "timestamp": "2025-12-05T23:28:22Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "PUE",
+      "date": "2025/12/13"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "9HY5FDdG",
+    "timestamp": "2025-12-03T04:27:42Z",
+    "properties": {
+      "amount": 154,
+      "payment_method": "paypal",
+      "phone": "+521224401076"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "evoskti5",
+    "timestamp": "2025-12-06T03:05:12Z",
+    "properties": {
+      "amount": 476,
+      "payment_method": "credit_card",
+      "phone": "+521477618518"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-04T14:03:01Z",
+    "properties": {
+      "amount": 235,
+      "payment_method": "credit_card",
+      "phone": "+521812064897"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "x4oDM2xs",
+    "timestamp": "2025-12-06T14:39:43Z",
+    "properties": {
+      "amount": 396,
+      "payment_method": "oxxo",
+      "phone": "+521339491263"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "oe1ygk9b",
+    "timestamp": "2025-12-06T19:42:06Z",
+    "properties": {
+      "amount": 113,
+      "payment_method": "credit_card",
+      "phone": "+521338742312"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "C5xuWmHV",
+    "timestamp": "2025-12-06T04:11:29Z",
+    "properties": {
+      "amount": 598,
+      "payment_method": "oxxo",
+      "phone": "+521555354977"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-03T15:58:36Z",
+    "properties": {
+      "origin": "QUER",
+      "destination": "VER",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-02T09:21:02Z",
+    "properties": {
+      "amount": 799,
+      "payment_method": "credit_card",
+      "phone": "+521813521989"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "uQnGNt2r",
+    "timestamp": "2025-12-02T16:01:50Z",
+    "properties": {
+      "amount": 452,
+      "payment_method": "credit_card",
+      "phone": "+521445345929"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "SkjeQxGI",
+    "timestamp": "2025-12-02T19:10:30Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "CDMX",
+      "date": "2025/12/30"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "HnIfEfG8",
+    "timestamp": "2025-12-04T02:33:08Z",
+    "properties": {
+      "origin": "GDL",
+      "destination": "MTY",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "8sb04EFS",
+    "timestamp": "2025-12-02T04:14:10Z",
+    "properties": {
+      "amount": 294,
+      "payment_method": "oxxo",
+      "phone": "+521995976635"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "jF046OKM",
+    "timestamp": "2025-12-05T21:13:00Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "VER",
+      "date": "2025/12/11"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "S34hk77d",
+    "timestamp": "2025-12-01T18:57:39Z",
+    "properties": {
+      "amount": 556,
+      "payment_method": "credit_card",
+      "phone": "+521814628936"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "crF4wpZr",
+    "timestamp": "2025-12-02T15:37:23Z",
+    "properties": {
+      "amount": 464,
+      "payment_method": "credit_card",
+      "phone": "+521813723377"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-02T07:40:14Z",
+    "properties": {
+      "origin": "ON",
+      "destination": "VER",
+      "date": "2025/12/04"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Lgt1ESdD",
+    "timestamp": "2025-12-01T06:04:06Z",
+    "properties": {
+      "amount": 730,
+      "payment_method": "oxxo",
+      "phone": "+521990029090"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-05T05:22:07Z",
+    "properties": {
+      "amount": 200,
+      "payment_method": "paypal",
+      "phone": "+521223987476"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "cRjbShDk",
+    "timestamp": "2025-12-04T15:47:02Z",
+    "properties": {
+      "amount": 133,
+      "payment_method": "oxxo",
+      "phone": "+521220413430"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "1GhlCoq8",
+    "timestamp": "2025-12-03T21:03:45Z",
+    "properties": {
+      "amount": 974,
+      "payment_method": "oxxo",
+      "phone": "+521811669840"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "JfB50Laf",
+    "timestamp": "2025-12-06T15:55:05Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "VER",
+      "date": "2025/12/26"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "ruAKpdij",
+    "timestamp": "2025-12-03T11:37:24Z",
+    "properties": {
+      "amount": 535,
+      "payment_method": "mercado_pago",
+      "phone": "+521992894052"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "2w4rPmOd",
+    "timestamp": "2025-12-02T08:05:48Z",
+    "properties": {
+      "origin": "CDMX",
+      "destination": "ON",
+      "date": "2025/12/19"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "TjXfvrQR",
+    "timestamp": "2025-12-04T16:05:48Z",
+    "properties": {
+      "amount": 120,
+      "payment_method": "mercado_pago",
+      "phone": "+521226115053"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "MciJQ2Af",
+    "timestamp": "2025-12-06T17:00:06Z",
+    "properties": {
+      "amount": 898,
+      "payment_method": "paypal",
+      "phone": "+521996619688"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "PH5HjRhP",
+    "timestamp": "2025-12-01T12:00:48Z",
+    "properties": {
+      "amount": 101,
+      "payment_method": "paypal",
+      "phone": "+521554571189"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "BFxePua6",
+    "timestamp": "2025-12-04T04:54:01Z",
+    "properties": {
+      "origin": "PUE",
+      "destination": "CDMX",
+      "date": "2025/12/21"
+    }
+  },
+  {
+    "event": "purchase_failed",
+    "user_id": "5zMYRrTw",
+    "timestamp": "2025-12-05T21:25:14Z",
+    "properties": {
+      "amount": 326,
+      "payment_method": "paypal",
+      "phone": "123456"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "Q82Atn93",
+    "timestamp": "2025-12-01T15:37:16Z",
+    "properties": {
+      "amount": 771,
+      "payment_method": "credit_card",
+      "phone": "+521472258235"
+    }
+  },
+  {
+    "event": "search",
+    "user_id": "NQxIdN4l",
+    "timestamp": "2025-12-01T19:28:35Z",
+    "properties": {
+      "origin": "VER",
+      "destination": "VER",
+      "date": "2025/12/02"
+    }
+  },
+  {
+    "event": "purchase_complete",
+    "user_id": "HuTI4vN7",
+    "timestamp": "2025-12-05T15:12:20Z",
+    "properties": {
+      "amount": 123,
+      "payment_method": "oxxo",
+      "phone": "+521220247442"
+    }
+  }
+]
