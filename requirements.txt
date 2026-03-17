@@ -5,4 +5,4 @@ pytest
 pydantic
 orjson
 ijson
-pyarrow
+pyarrow>=12.0.0

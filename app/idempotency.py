@@ -1,51 +1,57 @@
-import hashlib
-import orjson
-from psycopg2.extras import execute_values
-
-
-def event_hash(event):
-    """"Function that computes a hash on a sorted json.
-        Retruns a hash of the event using orjson for consistent serialization."""
-    return hashlib.md5(
-        orjson.dumps(event, option=orjson.OPT_SORT_KEYS)
-    ).hexdigest()
+from app.logger import logger
 
 
 def is_new_event(cursor, event):
-    """The function that checks if the event is new by trying to insert its hash into the database.
-        It allows us to ensure idempotency by only processing events that have not been seen before.
-        and allows deduplication.
-            Returns[bool]: True if the event is new, False if it has been processed before."""
-    h = event_hash(event)
+    """
+    Return True if this event has NOT been processed before.
 
+    Keyed on (event_type, user_id, timestamp) — a natural composite key
+    since the source data has no explicit event ID field.
+
+    Reuses the already-open cursor from the pipeline to avoid opening
+    a new DB connection per event.
+
+    Note: stream_events already skips events at or before the watermark,
+    so in theory this check only fires for out-of-order events near the
+    watermark boundary.
+    """
     cursor.execute(
         """
-        INSERT INTO processed_events(event_hash)
-        VALUES(%s)
-        ON CONFLICT DO NOTHING
-        RETURNING event_hash
+        SELECT 1 FROM processed_events
+        WHERE event_type = %s
+          AND user_id    = %s
+          AND ts         = %s
+        LIMIT 1
         """,
-        (h,)
+        (event["event"], event["user_id"], event["timestamp"]),
     )
+    exists = cursor.fetchone() is not None
 
-    return cursor.fetchone() is not None
+    if exists:
+        logger.debug(
+            f"Skipping duplicate: event={event['event']} "
+            f"user={event['user_id']} ts={event['timestamp']}"
+        )
+
+    return not exists
 
 
-def filter_new_events(cursor, events):
+def mark_event_processed(cursor, event):
+    """
+    Record that an event has been processed.
 
-    hashes = [(event_hash(e),) for e in events]
+    Called inside the same transaction as the metrics insert so both
+    roll back together if something goes wrong.
 
-    execute_values(
-        cursor,
+        Args:
+            cursor: The database cursor to execute the query.
+            event[dict]: The event to be marked as processed.
+    """
+    cursor.execute(
         """
-        INSERT INTO processed_events(event_hash)
-        VALUES %s
+        INSERT INTO processed_events (event_type, user_id, ts)
+        VALUES (%s, %s, %s)
         ON CONFLICT DO NOTHING
-        RETURNING event_hash
         """,
-        hashes
+        (event["event"], event["user_id"], event["timestamp"]),
     )
-
-    inserted = {row[0] for row in cursor.fetchall()}
-
-    return [e for e in events if event_hash(e) in inserted]

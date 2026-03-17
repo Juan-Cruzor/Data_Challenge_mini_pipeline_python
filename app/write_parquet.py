@@ -1,5 +1,6 @@
 import os
 import pyarrow as pa
+import pyarrow.compute as pc
 import pyarrow.parquet as pq
 
 
@@ -21,7 +22,7 @@ def write_parquet(events):
         folder = f"{BASE_PATH}/date={date}"
         os.makedirs(folder, exist_ok=True)
 
-        mask = pa.compute.equal(
+        mask = pc.equal(
             table["timestamp"].cast(pa.date32()),
             pa.scalar(date)
         )

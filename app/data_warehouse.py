@@ -1,7 +1,7 @@
 from psycopg2.extras import execute_values
 
 
-def insert_metrics(cursor,rows):
+def insert_metrics(cursor, rows):
     """Function that writes the computed metrics into the daily_user_stats table.
         It uses the execute_values method for efficient batch insertion and handles
         conflicts by updating existing records with the new metrics.
@@ -23,13 +23,12 @@ def insert_metrics(cursor,rows):
         cursor,
         """
         INSERT INTO daily_user_stats
-        (date,user_id,searches,purchases,total_purchased_amount)
+            (date, user_id, searches, purchases, total_purchased_amount)
         VALUES %s
-        ON CONFLICT (date,user_id)
-        DO UPDATE SET
-            searches = EXCLUDED.searches,
-            purchases = EXCLUDED.purchases,
+        ON CONFLICT (date, user_id) DO UPDATE SET
+            searches               = EXCLUDED.searches,
+            purchases              = EXCLUDED.purchases,
             total_purchased_amount = EXCLUDED.total_purchased_amount
         """,
-        rows
+        rows,
     )
