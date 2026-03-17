@@ -1,52 +1,107 @@
 from app.stream import stream_events
 from app.validation import validate_event
-from app.idempotency import is_new_event
+from app.idempotency import is_new_event, mark_event_processed
 from app.aggregate import init_metrics, update_metrics, flush_metrics
 from app.write_parquet import write_parquet
+from app.write_csv import write_csv, reset_csv
 from app.data_warehouse import insert_metrics
+from app.watermark import get_watermark, set_watermark
 from app.db import get_conn
+from app.logger import logger
+
+BATCH_SIZE = 10_000
 
 
 def run_pipeline(path):
+    conn = get_conn()
+    cursor = conn.cursor()
 
-    conn=get_conn()
-    cursor=conn.cursor()
+    # Start the CSV fresh so re-running the pipeline doesn't duplicate rows.
+    reset_csv()
 
-    metrics=init_metrics()
+    try:
+        # Incremental processing
+        watermark = get_watermark(cursor)
 
-    parquet_buffer=[]
-    # stream_events function from the stream module.
-    for raw in stream_events(path):
+        if watermark:
+            logger.info(f"Resuming from watermark: {watermark.isoformat()}")
+        else:
+            logger.info("No watermark found — processing all events.")
 
-        # Normalization is done in the validate_event functio from the validation modulen.
-        event=validate_event(raw)
-        # Skips the event if it's not valid.
-        if not event:
-            continue
+        metrics = init_metrics()
+        parquet_buffer = []
+        processed = 0
+        skipped = 0
+        latest_ts = watermark  # will be advanced as we see newer events
 
-        if not is_new_event(cursor,event):
-            continue
+        for raw in stream_events(path, after_ts=watermark):
 
-        parquet_buffer.append(event)
+            # Validate and normalize via Pydantic — returns None if invalid.
+            event = validate_event(raw)
+            if not event:
+                skipped += 1
+                continue
 
-        update_metrics(metrics,event)
+            # Secondary idempotency guard: catches out-of-order events that
+            # share a timestamp right at the watermark boundary.
+            if not is_new_event(cursor, event):
+                skipped += 1
+                continue
 
-        if len(parquet_buffer)>=10000:
+            # Mark as processed inside the same transaction so it rolls back
+            # together with the metrics insert on failure.
+            mark_event_processed(cursor, event)
 
+            parquet_buffer.append(event)
+            update_metrics(metrics, event)
+            processed += 1
+
+            # Advance the high-water mark.
+            event_ts = event["timestamp"]
+            if latest_ts is None or event_ts > latest_ts:
+                latest_ts = event_ts
+
+            # Flush parquet in batches to keep memory usage bounded.
+            if len(parquet_buffer) >= BATCH_SIZE:
+                write_parquet(parquet_buffer)
+                parquet_buffer.clear()
+
+            # Flush metrics to DB + CSV and commit in batches so that a
+            # mid-run crash doesn't lose all progress.
+            if len(metrics) >= BATCH_SIZE:
+                rows = flush_metrics(metrics)
+                insert_metrics(cursor, rows)
+                write_csv(rows)
+                conn.commit()
+                logger.info(f"Committed batch of {len(rows)} metric rows.")
+
+        # Final flush
+        if parquet_buffer:
             write_parquet(parquet_buffer)
 
-            parquet_buffer.clear()
+        rows = flush_metrics(metrics)
+        insert_metrics(cursor, rows)
+        write_csv(rows)
 
-        if len(metrics)>=10000:
+        # Advance the watermark only after all data is safely written.
+        # If we crash before this point the next run re-processes this batch;
+        # the idempotency check prevents any duplicates from being written.
+        if latest_ts is not None and latest_ts != watermark:
+            set_watermark(cursor, latest_ts)
+            logger.info(f"Watermark advanced to: {latest_ts.isoformat()}")
 
-            rows=flush_metrics(metrics)
+        conn.commit()
 
-            insert_metrics(cursor,rows)
+        logger.info(
+            f"Pipeline complete — processed: {processed}, "
+            f"skipped/invalid: {skipped}, metric rows: {len(rows)}."
+        )
 
-    write_parquet(parquet_buffer)
+    except Exception as e:
+        conn.rollback()
+        logger.error(f"Pipeline failed, transaction rolled back: {e}")
+        raise
 
-    rows=flush_metrics(metrics)
-
-    insert_metrics(cursor,rows)
-
-    conn.commit()
+    finally:
+        cursor.close()
+        conn.close()
